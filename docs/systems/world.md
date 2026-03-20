@@ -31,7 +31,7 @@ Some notable times are:
 * Sets time to midnight
 * Usage: `/function vinterra:world/time/debug/set_time_midnight`
 
-#### `debug/set_time_ight`
+#### `debug/set_time_night`
 * Sets time to the beginning of a minecraft night
 * Usage: `/function vinterra:world/time/debug/set_time_night`
 
