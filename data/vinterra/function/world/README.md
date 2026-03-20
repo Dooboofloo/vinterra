@@ -20,4 +20,21 @@ Some notable times are:
 ### Debug Commands
 
 #### `debug/set_time_macro`
+* Sets time to a particular value in "vin time." The sky value is automatically calculated and updated.
 * Usage: `/function vinterra:world/time/debug/set_time_macro {value:N}`
+
+#### `debug/set_time_day`
+* Sets time to the beginning of a minecraft day
+* Usage: `/function vinterra:world/time/debug/set_time_day`
+
+#### `debug/set_time_midnight`
+* Sets time to midnight
+* Usage: `/function vinterra:world/time/debug/set_time_midnight`
+
+#### `debug/set_time_ight`
+* Sets time to the beginning of a minecraft night
+* Usage: `/function vinterra:world/time/debug/set_time_night`
+
+#### `debug/set_time_noon`
+* Sets time to noon
+* Usage: `/function vinterra:world/time/debug/set_time_noon`
