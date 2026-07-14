@@ -1,5 +1,5 @@
 # vinterra:survival/warmth/block/heat/discover_generated/shell_3
-# Discovers landmark heat sources in the third shell places marker probes in those spots.
+# Discovers landmark heat sources in the third shell and places marker probes in those spots.
 
 # Low Priority Pass
 execute at @s positioned ~0 ~0 ~-4 if block ~ ~ ~ #vinterra:heat_landmark run function vinterra:survival/warmth/block/heat/place_probe_macro {tags:["vin.heat_probe","vin.heat_p3"]}
