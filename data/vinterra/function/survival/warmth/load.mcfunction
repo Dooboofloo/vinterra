@@ -6,6 +6,10 @@ scoreboard objectives add vin.heat_tmp dummy
 scoreboard objectives add vin.heat_val dummy
 scoreboard objectives add vin.heat_meta dummy
 
+# Final block heat contribution for each player
+scoreboard objectives add vin.block_heat_total dummy
+
+# Scoreboard tracking the number of found heat landmarks
 execute unless score #found vin.heat_tmp matches -2147483648..2147483647 run scoreboard players set #found vin.heat_tmp 0
 
 # Heat raycast constants
@@ -17,3 +21,9 @@ scoreboard players set #heat_tier_1 vin.heat_meta 2
 scoreboard players set #heat_tier_2 vin.heat_meta 24
 scoreboard players set #heat_tier_3 vin.heat_meta 72
 scoreboard players set #heat_tier_4 vin.heat_meta 108
+
+# Aggregation constants
+scoreboard players set #aggregate_limit vin.heat_meta 4
+scoreboard players set #2 vin.heat_meta 2
+scoreboard players set #4 vin.heat_meta 4
+scoreboard players set #8 vin.heat_meta 8

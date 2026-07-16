@@ -3,6 +3,7 @@
         "#vinterra:heat_tier/1",
         "#vinterra:heat_tier/2",
         "#vinterra:heat_tier/3",
-        "#vinterra:heat_tier/4"
+        "#vinterra:heat_tier/4",
+        "#vinterra:heat_tier/special"
     ]
 }

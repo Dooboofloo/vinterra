@@ -7,3 +7,9 @@
 function vinterra:survival/warmth/block/heat/discover
 function vinterra:survival/warmth/block/heat/raycast/begin
 function vinterra:survival/warmth/block/heat/classify/begin
+function vinterra:survival/warmth/block/heat/aggregate/begin
+
+# Probes are no longer needed
+function vinterra:survival/warmth/block/heat/clear_probes
+
+tellraw @p ["",{text:"Block Heat Total: ",color:"green"},{score:{name:"@s",objective:"vin.block_heat_total"},color:"green"}]
