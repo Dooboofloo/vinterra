@@ -1,6 +1,8 @@
 # vinterra:survival/warmth/load
 # Load entry point for the survival/warmth submodule
 
+### ===== BLOCK HEAT =====
+
 # Scoreboard objectives for survival/warmth/block/heat
 scoreboard objectives add vin.heat_tmp dummy
 scoreboard objectives add vin.heat_val dummy
@@ -27,3 +29,16 @@ scoreboard players set #aggregate_limit vin.heat_meta 4
 scoreboard players set #2 vin.heat_meta 2
 scoreboard players set #4 vin.heat_meta 4
 scoreboard players set #8 vin.heat_meta 8
+
+
+### ===== BLOCK COLD =====
+
+# Scoreboard objectives for survival/warmth/block/cold
+scoreboard objectives add vin.cold_meta dummy
+
+# Block cold contribution for each player
+scoreboard objectives add vin.block_cold_raw dummy
+scoreboard objectives add vin.block_cold_total dummy
+
+# Cold calculation constants
+scoreboard players set #cold_scale vin.cold_meta 8
