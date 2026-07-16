@@ -1,5 +1,9 @@
 {
     "values": [
-        "blue_ice"
+        "minecraft:blue_ice",
+        "minecraft:packed_ice",
+        "minecraft:bedrock",
+        "minecraft:powder_snow",
+        "minecraft:heavy_core"
     ]
 }

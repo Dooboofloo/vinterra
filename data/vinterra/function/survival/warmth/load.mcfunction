@@ -42,3 +42,8 @@ scoreboard objectives add vin.block_cold_total dummy
 
 # Cold calculation constants
 scoreboard players set #cold_scale vin.cold_meta 8
+
+# Special cold-source constants
+scoreboard players set #snow_layer_shell_1 vin.cold_meta 2
+scoreboard players set #snow_layer_shell_2 vin.cold_meta 1
+scoreboard players set #snow_layer_shell_3 vin.cold_meta 0

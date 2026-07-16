@@ -6,7 +6,6 @@ scoreboard players set @s vin.block_cold_raw 0
 scoreboard players set @s vin.block_cold_total 0
 
 # Scan shells for cold blocks
-# TODO: Special accumulation rules for snow layers etc.
 function vinterra:survival/warmth/block/cold/scan_generated/shell_1
 function vinterra:survival/warmth/block/cold/scan_generated/shell_2
 function vinterra:survival/warmth/block/cold/scan_generated/shell_3
