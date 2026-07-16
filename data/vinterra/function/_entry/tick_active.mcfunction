@@ -4,3 +4,4 @@
 
 # Module active tick functions
 function vinterra:world/tick_active
+function vinterra:survival/tick_active

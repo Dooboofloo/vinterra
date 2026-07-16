@@ -1,261 +1,261 @@
 # vinterra:survival/warmth/block/cold/scan_generated/shell_2
 # Generated ambient cold scan for Shell 2
 
-execute at @s positioned ~ ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~ ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-1 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~1 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-2 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~2 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~-3 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
-execute at @s positioned ~3 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~ ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~ if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~ ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~1 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~-1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~1 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-1 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~1 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~-2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~2 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~-2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~2 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-2 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~2 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~-3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~-3 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2
+execute positioned ~3 ~3 ~3 if block ~ ~ ~ #vinterra:cold_block run function vinterra:survival/warmth/block/cold/accumulate/shell_2

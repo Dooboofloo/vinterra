@@ -1,6 +1,10 @@
 # vinterra:survival/warmth/load
 # Load entry point for the survival/warmth submodule
 
+### ===== FINAL BLOCK CONTRIBUTION =====
+
+scoreboard objectives add vin.warmth_block_contribution dummy
+
 ### ===== BLOCK HEAT =====
 
 # Scoreboard objectives for survival/warmth/block/heat
