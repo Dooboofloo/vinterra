@@ -58,6 +58,9 @@
 
     "minecraft:lectern",
     "minecraft:enchanting_table",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "#minecraft:copper_chests",
 
     "minecraft:sugar_cane",
     "minecraft:pink_petals",
