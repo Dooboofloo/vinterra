@@ -89,6 +89,8 @@
     "#vinterra:copper/chains",
 
     "#vinterra:copper/grate",
-    "#vinterra:heads"
+    "#vinterra:heads",
+
+    "minecraft:water"
   ]
 }
