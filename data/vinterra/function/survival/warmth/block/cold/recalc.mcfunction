@@ -13,5 +13,3 @@ function vinterra:survival/warmth/block/cold/scan_generated/shell_3
 # Convert quarter-points into final cold
 scoreboard players operation @s vin.block_cold_total = @s vin.block_cold_raw
 scoreboard players operation @s vin.block_cold_total /= #cold_scale vin.cold_meta
-
-# tellraw @s ["",{"text":"Block Cold Total: ","color":"aqua"},{"score":{"name":"@s","objective":"vin.block_cold_total"},"color":"aqua"},{"text":" (Raw ","color":"gray"},{"score":{"name":"@s","objective":"vin.block_cold_raw"},"color":"gray"},{"text":")","color":"gray"}]

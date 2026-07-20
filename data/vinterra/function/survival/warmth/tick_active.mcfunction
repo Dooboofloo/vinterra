@@ -4,4 +4,4 @@
 
 # TODO: DO NOT KEEP THIS!!! Implement round robin scheduling in the future
 
-# execute as @a at @s run function vinterra:survival/warmth/block/recalc
+execute as @a at @s run function vinterra:survival/warmth/block/recalc

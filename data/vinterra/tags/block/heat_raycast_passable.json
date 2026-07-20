@@ -91,6 +91,7 @@
     "#vinterra:copper/grate",
     "#vinterra:heads",
 
-    "minecraft:water"
+    "minecraft:water",
+    "minecraft:snow"
   ]
 }

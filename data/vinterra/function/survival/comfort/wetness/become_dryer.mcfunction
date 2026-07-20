@@ -1,10 +1,16 @@
 # vinterra:survival/comfort/wetness/become_dryer
-# Decrease wetness over time
+# Decrease wetness over time. Drying becomes faster for nearby block heat landmarks
 
-# Simply remove one wetness per tick. At max wetness (1600) and with no other intervention, this takes 80 seconds
-scoreboard players operation @s vin.wetness -= #wetness_dry_loss vin.comfort_meta
+# Start with passive drying
+scoreboard players operation #dry_loss vin.comfort_meta = #wetness_dry_loss vin.comfort_meta
 
-# Clamp to 0
+# Copy the previous total block heat calculation
+scoreboard players operation #block_drying vin.comfort_meta = @s vin.block_heat_total
+
+# Convert total block heat into additional drying
+scoreboard players operation #block_drying vin.comfort_meta /= #drying_scale vin.comfort_meta
+scoreboard players operation #dry_loss vin.comfort_meta += #block_drying vin.comfort_meta
+
+# Apply and clamp
+scoreboard players operation @s vin.wetness -= #dry_loss vin.comfort_meta
 execute if score @s vin.wetness matches ..-1 run scoreboard players set @s vin.wetness 0
-
-# TODO: Eventually, warmth will factor into decreasing wetness faster (from previous warmth calculation)

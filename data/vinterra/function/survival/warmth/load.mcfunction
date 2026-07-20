@@ -23,9 +23,9 @@ scoreboard players set #raycast_limit vin.heat_meta 16
 scoreboard players set #ray_step_limit vin.heat_meta 80
 
 # Heat value constants
-scoreboard players set #heat_tier_1 vin.heat_meta 2
-scoreboard players set #heat_tier_2 vin.heat_meta 24
-scoreboard players set #heat_tier_3 vin.heat_meta 72
+scoreboard players set #heat_tier_1 vin.heat_meta 27
+scoreboard players set #heat_tier_2 vin.heat_meta 54
+scoreboard players set #heat_tier_3 vin.heat_meta 80
 scoreboard players set #heat_tier_4 vin.heat_meta 108
 
 # Aggregation constants
