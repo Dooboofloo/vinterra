@@ -5,4 +5,4 @@
 # Since these resolve before the inactive tick functions, active functions must not rely on inactive tick functions.
 execute if entity @a run function vinterra:_entry/tick_active
 
-function vinterra:world/tick
+# function vinterra:world/tick
