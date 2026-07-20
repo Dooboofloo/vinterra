@@ -5,6 +5,7 @@
 scoreboard players operation #dry_loss vin.comfort_meta = #wetness_dry_loss vin.comfort_meta
 
 # Copy the previous total block heat calculation
+scoreboard players set #block_drying vin.comfort_meta 0
 scoreboard players operation #block_drying vin.comfort_meta = @s vin.block_heat_total
 
 # Convert total block heat into additional drying
