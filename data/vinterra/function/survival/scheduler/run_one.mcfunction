@@ -11,7 +11,7 @@ execute if score #budget vin.schedule_meta >= #schedule_window vin.schedule_meta
 
 # Find the greatest current wait time
 scoreboard players set #max_wait vin.schedule_meta -1
-execute as @a if score @s vin.recalc_wait > #max_wait vin.schedule_meta run scoreboard players operation #max_wait vin.schedule_meta = @s vin.recalc_wait
+scoreboard players operation #max_wait vin.schedule_meta > @a vin.recalc_wait
 
 # Clear temporary selection tags
 tag @a remove vin.recalc_candidate

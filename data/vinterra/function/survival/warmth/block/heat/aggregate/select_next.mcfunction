@@ -11,8 +11,7 @@ function vinterra:survival/warmth/block/heat/aggregate/cleanup
 
 # Find the highest remaining positive value
 scoreboard players set #agg_max vin.heat_tmp 0
-
-execute as @e[type=marker,tag=vin.heat_probe,tag=vin.heat_probe_visible,tag=!vin.heat_probe_aggregated] if score @s vin.heat_val matches 1.. run function vinterra:survival/warmth/block/heat/aggregate/compare_one
+scoreboard players operation #agg_max vin.heat_tmp > @e[type=marker,tag=vin.heat_probe,tag=vin.heat_probe_visible,tag=!vin.heat_probe_aggregated] vin.heat_val
 
 # No positive sources remain
 execute if score #agg_max vin.heat_tmp matches 0 run return 1
