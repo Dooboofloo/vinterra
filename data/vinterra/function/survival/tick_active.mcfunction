@@ -4,7 +4,10 @@
 
 # Fast, continuous mechanics
 function vinterra:survival/comfort/tick_active
-# function vinterra:survival/warmth/tick_active # TODO: Uncomment this line once this function actually does something
+function vinterra:survival/warmth/tick_active
 
 # Expensive survival recalculations scheduler
 function vinterra:survival/scheduler/tick_active
+
+# TEST ONLY
+# execute as @a at @s run function vinterra:survival/recalc

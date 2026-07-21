@@ -5,6 +5,9 @@
 function vinterra:survival/warmth/block/heat/recalc
 function vinterra:survival/warmth/block/cold/recalc
 
+# Debug only
+# summon armor_stand ~ ~ ~ {NoGravity:1b,Small:1b,Glowing:1b,Tags:["vin.test"]}
+
 # Debug outputs
 # tellraw @s ["",{text:"Block Heat Total: ",color:"green"},{score:{name:"@s",objective:"vin.block_heat_total"},color:"green"}]
 # tellraw @s ["",{"text":"Block Cold Total: ","color":"aqua"},{"score":{"name":"@s","objective":"vin.block_cold_total"},"color":"aqua"},{"text":" (Raw ","color":"gray"},{"score":{"name":"@s","objective":"vin.block_cold_raw"},"color":"gray"},{"text":")","color":"gray"}]

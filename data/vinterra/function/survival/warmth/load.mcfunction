@@ -51,3 +51,8 @@ scoreboard players set #cold_scale vin.cold_meta 8
 scoreboard players set #snow_layer_shell_1 vin.cold_meta 2
 scoreboard players set #snow_layer_shell_2 vin.cold_meta 1
 scoreboard players set #snow_layer_shell_3 vin.cold_meta 0
+
+
+### ===== MISC PLAYER ATTRIBUTES =====
+
+scoreboard objectives add vin.over_edge dummy
