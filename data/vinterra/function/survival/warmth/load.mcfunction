@@ -1,8 +1,9 @@
 # vinterra:survival/warmth/load
 # Load entry point for the survival/warmth submodule
 
-# TODO: Rearrange this file to make it prettier
-# TODO: Consolidate scoreboards (ex. vin.heat_meta + vin.cold_meta -> vin.warmth_meta)
+# TODO: Rearrange this file to make it prettier. Including:
+# - Consolidate scoreboards (ex. vin.heat_meta + vin.cold_meta -> vin.warmth_meta)
+# - Standardize naming and suffixes (warmth_block_contribution vs. warmth_equipment)
 
 ### ===== FINAL WARMTH STATE =====
 
@@ -22,6 +23,8 @@ scoreboard objectives add vin.warmth_equipment dummy
 
 # Warmth constants
 scoreboard objectives add vin.warmth_meta dummy
+scoreboard objectives add vin.warmth_tmp dummy
+
 scoreboard players set #warmth_smoothing vin.warmth_meta 18
 
 # Temp value for testing purposes
@@ -79,6 +82,11 @@ scoreboard players set #snow_layer_shell_1 vin.cold_meta 2
 scoreboard players set #snow_layer_shell_2 vin.cold_meta 1
 scoreboard players set #snow_layer_shell_3 vin.cold_meta 0
 
+
+### ===== EQUIPMENT CONTRIBUTION =====
+
+scoreboard objectives add vin.warmth_equipment_raw dummy
+scoreboard objectives add vin.warmth_equipment dummy
 
 ### ===== MISC PLAYER ATTRIBUTES =====
 

@@ -1,4 +1,15 @@
 # vinterra:survival/warmth/equipment/recalc
+# Calculates target player's target equipment warmth
+# Must be executed as the player
 
-# Temporary until worn equipment warmth is implemented
-scoreboard players set @s vin.warmth_equipment 0
+scoreboard players set @s vin.warmth_equipment_raw 0
+
+# TODO: Make predicates for these, or defined per-equipment values, rather than hard coding here.
+# Also maybe split into functions for different slots?
+
+execute if entity @s[nbt={equipment:{head:{id:"minecraft:leather_helmet"}}}] run scoreboard players add @s vin.warmth_equipment_raw 4
+execute if entity @s[nbt={equipment:{chest:{id:"minecraft:leather_chestplate"}}}] run scoreboard players add @s vin.warmth_equipment_raw 12
+execute if entity @s[nbt={equipment:{legs:{id:"minecraft:leather_leggings"}}}] run scoreboard players add @s vin.warmth_equipment_raw 8
+execute if entity @s[nbt={equipment:{feet:{id:"minecraft:leather_boots"}}}] run scoreboard players add @s vin.warmth_equipment_raw 4
+
+function vinterra:survival/warmth/equipment/apply_wetness

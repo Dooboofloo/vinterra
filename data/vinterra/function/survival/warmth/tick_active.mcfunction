@@ -27,3 +27,7 @@ execute as @a at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~
 # their effective warmth is always being interpolated toward their target warmth
 
 execute as @a run function vinterra:survival/warmth/interpolate
+
+
+### True debug output
+execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text:"Effective Warmth: "},{score:{name:"@s",objective:"vin.warmth_effective"}}, {text:" (Target Warmth: "},{score:{name:"@s",objective:"vin.warmth_target"}}, {text:")"}]
