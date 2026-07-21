@@ -26,6 +26,7 @@ execute if score @s vin.over_edge matches 1 positioned ~ ~0.125 ~ align y if blo
 
 # TYPE 3: Player took off over open air
 # Rises by one block briefly near the peak, but drops below the takeoff layer
+# TODO: See if I can fix this eventually
 execute if score @s vin.over_edge matches 2 positioned ~ ~0.125 ~ align y run return run function vinterra:survival/warmth/block/recalc_positioned
 
 

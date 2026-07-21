@@ -1,11 +1,38 @@
 # vinterra:survival/warmth/load
 # Load entry point for the survival/warmth submodule
 
-### ===== FINAL BLOCK CONTRIBUTION =====
+# TODO: Rearrange this file to make it prettier
+# TODO: Consolidate scoreboards (ex. vin.heat_meta + vin.cold_meta -> vin.warmth_meta)
+
+### ===== FINAL WARMTH STATE =====
+
+# Sampled warmth produced by the player's current circumstances
+scoreboard objectives add vin.warmth_target dummy
+
+# Player's current interpolated warmth
+scoreboard objectives add vin.warmth_effective dummy
+
+# Per-tick interpolation math
+scoreboard objectives add vin.warmth_delta dummy
+scoreboard objectives add vin.warmth_step dummy
+
+# Final contribution categories
+scoreboard objectives add vin.warmth_ambient dummy
+scoreboard objectives add vin.warmth_equipment dummy
+
+# Warmth constants
+scoreboard objectives add vin.warmth_meta dummy
+scoreboard players set #warmth_smoothing vin.warmth_meta 18
+
+# Temp value for testing purposes
+scoreboard players set #warmth_default vin.warmth_meta -25
+
+
+### ===== BLOCK CONTRIBUTION =====
 
 scoreboard objectives add vin.warmth_block_contribution dummy
 
-### ===== BLOCK HEAT =====
+## BLOCK HEAT
 
 # Scoreboard objectives for survival/warmth/block/heat
 scoreboard objectives add vin.heat_tmp dummy
@@ -35,7 +62,7 @@ scoreboard players set #4 vin.heat_meta 4
 scoreboard players set #8 vin.heat_meta 8
 
 
-### ===== BLOCK COLD =====
+## BLOCK COLD
 
 # Scoreboard objectives for survival/warmth/block/cold
 scoreboard objectives add vin.cold_meta dummy
@@ -45,7 +72,7 @@ scoreboard objectives add vin.block_cold_raw dummy
 scoreboard objectives add vin.block_cold_total dummy
 
 # Cold calculation constants
-scoreboard players set #cold_scale vin.cold_meta 8
+scoreboard players set #cold_scale vin.cold_meta 16
 
 # Special cold-source constants
 scoreboard players set #snow_layer_shell_1 vin.cold_meta 2
