@@ -1,4 +1,4 @@
-# vinterra:survival/comfort/wetness/get_rained_on
+# vinterra:survival/comfort/wetness/in_precipitation
 # Slowly add wetness from getting rained on
 
 # Each tick add 1 wetness, clamped to 1600 (max wetness after 1600 ticks = 80s)

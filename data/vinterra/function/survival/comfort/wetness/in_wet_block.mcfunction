@@ -1,4 +1,4 @@
-# vinterra:survival/comfort/wetness/become_wet
+# vinterra:survival/comfort/wetness/in_wet_block
 # Manages players who are currently becoming wet
 
 # Each tick add 32 wetness, clamped to 1600 (max wetness after 50 ticks = 2.5s)

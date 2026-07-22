@@ -10,8 +10,8 @@ scoreboard objectives add vin.comfort_meta dummy
 scoreboard objectives add vin.wetness dummy
 
 # Wetness Constants
-scoreboard players set #wetness_water_gain vin.comfort_meta 32
-scoreboard players set #wetness_rain_gain vin.comfort_meta 1
+scoreboard players set #wetness_water_gain vin.comfort_meta 50
+scoreboard players set #wetness_rain_gain vin.comfort_meta 2
 scoreboard players set #wetness_max vin.comfort_meta 1600
 
 scoreboard players set #wetness_dry_loss vin.comfort_meta 1

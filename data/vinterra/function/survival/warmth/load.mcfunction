@@ -86,7 +86,6 @@ scoreboard players set #snow_layer_shell_3 vin.cold_meta 0
 ### ===== EQUIPMENT CONTRIBUTION =====
 
 scoreboard objectives add vin.warmth_equipment_raw dummy
-scoreboard objectives add vin.warmth_equipment dummy
 
 ### ===== MISC PLAYER ATTRIBUTES =====
 
