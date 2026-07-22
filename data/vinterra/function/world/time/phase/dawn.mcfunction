@@ -4,11 +4,11 @@
 # sky = 23000 + ((time - 66000) * 1000) // 6000
 
 # Compute tmp = ((time - 66000) * 1000) // 6000
-scoreboard players operation #tmp vin.time_math = #time_mod vin.time
-scoreboard players operation #tmp vin.time_math -= #66000 vin.time_const
-scoreboard players operation #tmp vin.time_math *= #1000 vin.time_const
-scoreboard players operation #tmp vin.time_math /= #6000 vin.time_const
+scoreboard players operation #tmp vin.time_meta = #time_mod vin.time
+scoreboard players operation #tmp vin.time_meta -= #66000 vin.time_meta
+scoreboard players operation #tmp vin.time_meta *= #1000 vin.time_meta
+scoreboard players operation #tmp vin.time_meta /= #6000 vin.time_meta
 
 # Compute 23000 + tmp
-scoreboard players operation #sky_cycle vin.time = #23000 vin.time_const
-scoreboard players operation #sky_cycle vin.time += #tmp vin.time_math
+scoreboard players operation #sky_cycle vin.time = #23000 vin.time_meta
+scoreboard players operation #sky_cycle vin.time += #tmp vin.time_meta

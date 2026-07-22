@@ -5,7 +5,7 @@
 tag @e[type=marker,tag=vin.heat_probe_current,distance=..0.2,sort=nearest,limit=1] add vin.heat_probe_visible
 tag @e[type=marker,tag=vin.heat_probe_current,distance=..0.2,sort=nearest,limit=1] add vin.heat_probe_processed
 
-scoreboard players add #visible vin.heat_tmp 1
+scoreboard players add #visible vin.warmth_tmp 1
 
 # Remove the transient current tag from every probe defensively
 function vinterra:survival/warmth/block/heat/raycast/cleanup

@@ -6,9 +6,9 @@
 scoreboard players set @s vin.block_heat_total 0
 
 # Reset aggregation state
-scoreboard players set #agg_rank vin.heat_tmp 1
-scoreboard players set #agg_max vin.heat_tmp 0
-scoreboard players set #agg_value vin.heat_tmp 0
+scoreboard players set #agg_rank vin.warmth_tmp 1
+scoreboard players set #agg_max vin.warmth_tmp 0
+scoreboard players set #agg_value vin.warmth_tmp 0
 
 function vinterra:survival/warmth/block/heat/aggregate/cleanup
 

@@ -16,7 +16,7 @@ execute if block ~ ~ ~ minecraft:snow[layers=7] run scoreboard players set #spec
 execute if block ~ ~ ~ minecraft:snow[layers=8] run scoreboard players set #special_cold vin.block_cold_raw 8
 
 # Apply the shell-specific value per layer
-$scoreboard players operation #special_cold vin.block_cold_raw *= #snow_layer_shell_$(shell) vin.cold_meta
+$scoreboard players operation #special_cold vin.block_cold_raw *= #snow_layer_shell_$(shell) vin.warmth_meta
 
 # Add the resulting value to the player's ambient block cold
 scoreboard players operation @s vin.block_cold_raw += #special_cold vin.block_cold_raw

@@ -10,8 +10,8 @@ execute if block ~ ~ ~ #minecraft:slabs[type=double] run return run function vin
 execute unless block ~ ~ ~ #vinterra:heat_raycast_passable unless block ~ ~ ~ #vinterra:heat_landmark unless block ~ ~ ~ #minecraft:slabs run return run function vinterra:survival/warmth/block/heat/raycast/fail
 
 # Safety limit
-scoreboard players add #ray_steps vin.heat_tmp 1
-execute if score #ray_steps vin.heat_tmp >= #ray_step_limit vin.heat_meta run return run function vinterra:survival/warmth/block/heat/raycast/fail
+scoreboard players add #ray_steps vin.warmth_tmp 1
+execute if score #ray_steps vin.warmth_tmp >= #ray_step_limit vin.warmth_meta run return run function vinterra:survival/warmth/block/heat/raycast/fail
 
 # Advance one step
 return run execute positioned ^ ^ ^0.1 run function vinterra:survival/warmth/block/heat/raycast/step

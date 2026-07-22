@@ -3,7 +3,7 @@
 # Must be executed as and at the player
 
 # Stop once the raycast budget has been exhausted
-execute if score #raycasts vin.heat_tmp >= #raycast_limit vin.heat_meta run return 1
+execute if score #raycasts vin.warmth_tmp >= #raycast_limit vin.warmth_meta run return 1
 
 # Ensure there is no stale current probe
 function vinterra:survival/warmth/block/heat/raycast/cleanup
@@ -21,8 +21,8 @@ execute unless entity @e[type=marker,tag=vin.heat_probe_current,limit=1] run tag
 execute unless entity @e[type=marker,tag=vin.heat_probe_current,limit=1] run return 1
 
 # Test the selected probe
-scoreboard players add #raycasts vin.heat_tmp 1
-scoreboard players set #ray_steps vin.heat_tmp 0
+scoreboard players add #raycasts vin.warmth_tmp 1
+scoreboard players set #ray_steps vin.warmth_tmp 0
 
 function vinterra:survival/warmth/block/heat/raycast/cast_current
 

@@ -7,7 +7,7 @@ function vinterra:world/time/compute_sky
 
 # Compute the final sky time by adding the number of days elapsed to the current cycle's sky time
 scoreboard players operation #sky vin.time = #day vin.time
-scoreboard players operation #sky vin.time *= #24000 vin.time_const
+scoreboard players operation #sky vin.time *= #24000 vin.time_meta
 scoreboard players operation #sky vin.time += #sky_cycle vin.time
 
 execute store result storage vinterra:runtime time.value int 1 run scoreboard players get #sky vin.time

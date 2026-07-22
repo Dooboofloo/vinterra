@@ -3,9 +3,9 @@
 # Must be executed as and at the player
 
 # Reset runtime counters
-scoreboard players set #raycasts vin.heat_tmp 0
-scoreboard players set #visible vin.heat_tmp 0
-scoreboard players set #ray_steps vin.heat_tmp 0
+scoreboard players set #raycasts vin.warmth_tmp 0
+scoreboard players set #visible vin.warmth_tmp 0
+scoreboard players set #ray_steps vin.warmth_tmp 0
 
 # Reset lifecycle state, allowing this stage to be rerun for testing
 function vinterra:survival/warmth/block/heat/raycast/cleanup
