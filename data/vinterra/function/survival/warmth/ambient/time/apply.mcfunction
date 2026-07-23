@@ -1,6 +1,8 @@
 # vinterra:survival/warmth/ambient/time/apply
 # Calculate's the player's current time warmth contribution
 
+# This function is executed only if the player is in the overworld
+
 # TODO: This should only apply to a player when exposed to the elements
 
 execute if function vinterra:world/time/api/is_day run return run scoreboard players operation @s vin.warmth_ambient += #time_day vin.warmth_meta

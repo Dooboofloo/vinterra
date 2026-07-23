@@ -25,7 +25,7 @@ scoreboard players set #warmth_smoothing vin.warmth_meta 18
 
 # Temp value for testing purposes. Used to initialize players
 # Player initialization will eventually be owned by its own module, which will also allow
-# for urgent requests to recalculate warmth (skipping scheduler)
+# for urgent requests to recalculate warmth (still through scheduler, but skipping queue)
 scoreboard players set #warmth_default vin.warmth_meta -25
 
 
