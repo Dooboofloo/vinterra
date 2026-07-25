@@ -22,7 +22,9 @@
     "#minecraft:walls",
 
     "#minecraft:doors",
+    "#vinterra:copper/doors",
     "#minecraft:trapdoors",
+    "#vinterra:copper/trapdoors",
 
     "minecraft:end_rod",
     "minecraft:light",
@@ -89,7 +91,9 @@
     "#vinterra:copper/chains",
 
     "#vinterra:copper/grate",
-    "#vinterra:heads",
+    "#vinterra:copper/lightning_rod",
+
+    "#vinterra:groups/heads",
 
     "minecraft:water",
     "minecraft:snow"

@@ -1,5 +1,9 @@
 {
     "values": [
-        "minecraft:orange_concrete"
+        "minecraft:magma_block",
+        "minecraft:lava",
+        "minecraft:fire",
+        "#vinterra:groups/soul_torches",
+        "minecraft:soul_lantern"
     ]
 }

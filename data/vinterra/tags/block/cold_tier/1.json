@@ -1,5 +1,12 @@
 {
     "values": [
-        "minecraft:iron_block"
+        "#vinterra:groups/metals",
+
+        "minecraft:emerald_block",
+        "minecraft:diamond_block",
+        
+        "#vinterra:groups/quartz",
+
+        "minecraft:amethyst_block"
     ]
 }

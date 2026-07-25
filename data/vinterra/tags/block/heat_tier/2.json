@@ -1,5 +1,12 @@
 {
     "values": [
-        "minecraft:yellow_concrete"
+        "minecraft:jack_o_lantern",
+        "minecraft:netherite_block",
+
+        "#vinterra:groups/torches",
+        "#vinterra:copper/torches",
+        
+        "minecraft:lantern",
+        "#vinterra:copper/lanterns"
     ]
 }

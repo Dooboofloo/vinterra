@@ -1,5 +1,9 @@
 {
     "values": [
-        "minecraft:white_concrete"
+        "minecraft:ancient_debris",
+        "minecraft:shroomlight",
+        "minecraft:dragon_egg",
+
+        "#vinterra:groups/froglights"
     ]
 }

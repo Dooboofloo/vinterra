@@ -1,9 +1,18 @@
 {
   "values": [
+    "#minecraft:candles",
+
     "minecraft:campfire",
     "minecraft:soul_campfire",
+
     "minecraft:furnace",
     "minecraft:smoker",
-    "minecraft:blast_furnace"
+    "minecraft:blast_furnace",
+
+    "minecraft:brewing_stand",
+
+    "minecraft:redstone_lamp",
+    "#vinterra:copper/bulbs",
+    "#vinterra:copper/lanterns"
   ]
 }

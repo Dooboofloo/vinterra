@@ -1,0 +1,39 @@
+{
+    "values": [
+        "minecraft:raw_copper_block",
+        "minecraft:raw_gold_block",
+        "minecraft:raw_iron_block",
+        
+        "minecraft:iron_block",
+        "minecraft:gold_block",
+
+        "#vinterra:copper/block",
+        "#vinterra:copper/chiseled",
+        "#vinterra:copper/cut",
+        "#vinterra:copper/stairs",
+        "#vinterra:copper/slabs",
+        "#vinterra:copper/doors",
+        "#vinterra:copper/trapdoors",
+        "#vinterra:copper/grate",
+        "#vinterra:copper/bars",
+        "#vinterra:copper/chains",
+        "#vinterra:copper/lightning_rod",
+
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:heavy_weighted_pressure_plate",
+
+        "minecraft:iron_bars",
+        "minecraft:iron_chain",
+        "minecraft:iron_door",
+        "minecraft:iron_trapdoor",
+        "minecraft:cauldron",
+        "minecraft:water_cauldron",
+        "minecraft:hopper",
+
+        "minecraft:vault",
+        "minecraft:bell",
+        
+        "#minecraft:anvil"
+
+    ]
+}
