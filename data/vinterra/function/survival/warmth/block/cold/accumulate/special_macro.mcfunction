@@ -5,9 +5,6 @@
 
 scoreboard players set #special_cold vin.block_cold_raw 0
 
-# Unlit copper bulbs are treated like normal metal blocks (T1 cold)
-execute if block ~ ~ ~ #vinterra:copper/bulbs[lit=false] run scoreboard players set #special_cold vin.block_cold_raw 8
-
 # Snow layers
 execute if block ~ ~ ~ minecraft:snow[layers=1] run scoreboard players set #special_cold vin.block_cold_raw 1
 execute if block ~ ~ ~ minecraft:snow[layers=2] run scoreboard players set #special_cold vin.block_cold_raw 2

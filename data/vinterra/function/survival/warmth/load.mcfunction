@@ -96,9 +96,8 @@ scoreboard objectives add vin.block_cold_total dummy
 scoreboard players set #cold_scale vin.warmth_meta 16
 
 # Special cold-source constants
-scoreboard players set #special_shell_1 vin.warmth_meta 2
-scoreboard players set #special_shell_2 vin.warmth_meta 1
-scoreboard players set #special_shell_3 vin.warmth_meta 0
+scoreboard players set #snow_layer_shell_1 vin.warmth_meta 2
+scoreboard players set #snow_layer_shell_2 vin.warmth_meta 1
 
 
 ### ===== EQUIPMENT CONTRIBUTION =====
