@@ -78,7 +78,10 @@ scoreboard players set #heat_tier_4 vin.warmth_meta 108
 
 # Aggregation constants
 scoreboard players set #aggregate_limit vin.warmth_meta 4
+
+# Number constants
 scoreboard players set #2 vin.warmth_meta 2
+scoreboard players set #3 vin.warmth_meta 3
 scoreboard players set #4 vin.warmth_meta 4
 scoreboard players set #8 vin.warmth_meta 8
 
@@ -93,9 +96,9 @@ scoreboard objectives add vin.block_cold_total dummy
 scoreboard players set #cold_scale vin.warmth_meta 16
 
 # Special cold-source constants
-scoreboard players set #snow_layer_shell_1 vin.warmth_meta 2
-scoreboard players set #snow_layer_shell_2 vin.warmth_meta 1
-scoreboard players set #snow_layer_shell_3 vin.warmth_meta 0
+scoreboard players set #special_shell_1 vin.warmth_meta 2
+scoreboard players set #special_shell_2 vin.warmth_meta 1
+scoreboard players set #special_shell_3 vin.warmth_meta 0
 
 
 ### ===== EQUIPMENT CONTRIBUTION =====

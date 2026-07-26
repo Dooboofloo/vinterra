@@ -6,7 +6,6 @@
         "#vinterra:groups/torches",
         "#vinterra:copper/torches",
         
-        "minecraft:lantern",
-        "#vinterra:copper/lanterns"
+        "minecraft:lantern"
     ]
 }
