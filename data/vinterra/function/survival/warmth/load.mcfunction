@@ -70,6 +70,8 @@ execute unless score #found vin.warmth_tmp matches -2147483648..2147483647 run s
 scoreboard players set #raycast_limit vin.warmth_meta 16
 scoreboard players set #ray_step_limit vin.warmth_meta 80
 
+scoreboard players set #found_limit vin.warmth_meta 32
+
 # Heat value constants
 scoreboard players set #heat_tier_1 vin.warmth_meta 27
 scoreboard players set #heat_tier_2 vin.warmth_meta 54
@@ -77,6 +79,8 @@ scoreboard players set #heat_tier_3 vin.warmth_meta 80
 scoreboard players set #heat_tier_4 vin.warmth_meta 108
 
 # Aggregation constants
+# The max number of heat sources allowed to apply to the player
+# Sorted from highest to lowest
 scoreboard players set #aggregate_limit vin.warmth_meta 4
 
 # Number constants
