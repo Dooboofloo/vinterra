@@ -2,12 +2,16 @@
 # Advances one step along the current heat ray
 
 # The probe has been reached
-execute if entity @e[type=marker,tag=vin.heat_probe_current,distance=..0.2,sort=nearest,limit=1] run return run function vinterra:survival/warmth/block/heat/raycast/succeed
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=marker,tag=vin.heat_probe_current,distance=..0.01,sort=nearest,limit=1] run return run function vinterra:survival/warmth/block/heat/raycast/succeed
 
 # Stop when entering a thermally blocking block.
-# Heat landmarks are exempt so the ray can enter the target source block. Slabs are exempt unless they're double slabs
+
+# First, check special cases (note: if a block CAN be passed through (even only sometimes), it should be defined in #vinterra:heat_raycast_passable)
+# Slabs are exempt unless they're double slabs
 execute if block ~ ~ ~ #minecraft:slabs[type=double] run return run function vinterra:survival/warmth/block/heat/raycast/fail
-execute unless block ~ ~ ~ #vinterra:heat_raycast_passable unless block ~ ~ ~ #vinterra:hot_block unless block ~ ~ ~ #minecraft:slabs run return run function vinterra:survival/warmth/block/heat/raycast/fail
+
+# Then check for any opaque block
+execute unless block ~ ~ ~ #vinterra:heat_raycast_passable run return run function vinterra:survival/warmth/block/heat/raycast/fail
 
 # Safety limit
 scoreboard players add #ray_steps vin.warmth_tmp 1

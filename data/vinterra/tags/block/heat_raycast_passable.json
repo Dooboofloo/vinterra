@@ -96,6 +96,23 @@
     "#vinterra:groups/heads",
 
     "minecraft:water",
-    "minecraft:snow"
+    "minecraft:snow",
+
+    "#minecraft:slabs",
+    
+    "minecraft:dragon_egg",
+    "#vinterra:groups/torches",
+    "#vinterra:copper/torches",
+    "minecraft:lantern",
+    "minecraft:lava",
+    "minecraft:fire",
+    "#vinterra:groups/soul_torches",
+    "minecraft:soul_lantern",
+    "minecraft:soul_fire",
+    "#minecraft:candles",
+    "minecraft:campfire",
+    "minecraft:soul_campfire",
+    "minecraft:brewing_stand",
+    "#vinterra:copper/lanterns"
   ]
 }
