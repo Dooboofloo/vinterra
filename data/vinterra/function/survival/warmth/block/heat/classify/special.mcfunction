@@ -1,8 +1,6 @@
 # vinterra:survival/warmth/block/heat/classify/special
 # Runs as and at one visible heat probe
 
-# TODO: Copper bulbs
-
 ### SPECIAL
 
 # Lit candles (each candle adds 1/4 of a tier 1 heat source)
