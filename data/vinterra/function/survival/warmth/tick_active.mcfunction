@@ -18,7 +18,10 @@ execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vint
 # Though each player's expensive calculations are done periodically,
 # their effective warmth is always being interpolated toward their target warmth
 
-execute as @a[predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/interpolate
+execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/interpolate
+
+## Determine Warmth Bands
+execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/band/update
 
 
 ### True debug output

@@ -103,6 +103,29 @@ scoreboard players set #snow_layer_shell_2 vin.warmth_meta 1
 
 scoreboard objectives add vin.warmth_equipment_raw dummy
 
+
+### ===== WARMTH BANDS ======
+
+# Current Classified Warmth Bands:
+# -3: Freezing
+# -2: Frigid
+# -1: Cold
+#  0: Warm
+#  1: Hot
+#  2: Scorching
+#  3: Scalding
+
+scoreboard objectives add vin.warmth_band dummy
+
+# Inclusive lower bounds (TODO: Balance these values)
+scoreboard players set #band_frigid_min vin.warmth_meta -54
+scoreboard players set #band_cold_min vin.warmth_meta -27
+scoreboard players set #band_warm_min vin.warmth_meta 0
+scoreboard players set #band_hot_min vin.warmth_meta 27
+scoreboard players set #band_scorching_min vin.warmth_meta 54
+scoreboard players set #band_scalding_min vin.warmth_meta 80
+
+
 ### ===== MISC PLAYER ATTRIBUTES =====
 
 scoreboard objectives add vin.over_edge dummy

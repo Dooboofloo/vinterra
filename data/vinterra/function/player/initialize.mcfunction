@@ -11,8 +11,13 @@ scoreboard players set @s vin.wetness 0
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
 scoreboard players operation @s vin.warmth_effective = #warmth_default vin.player_meta
 
+# Reset warmth band
+scoreboard players reset @s vin.warmth_band
+
+# Request urgent survival recalculation
 function vinterra:player/request_recalc
 
+# Tag the player as initialized
 tag @s add vin.player_initialized
 
 tellraw @a[tag=vin.debug_viewer] [{text:"[Player] Player Initialized: "}, {selector:"@s"}]
