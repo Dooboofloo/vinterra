@@ -155,6 +155,10 @@ scoreboard players operation #band_scorching_recover vin.warmth_meta += #band_re
 scoreboard players operation #band_scalding_recover vin.warmth_meta = #band_scalding_min vin.warmth_meta
 scoreboard players operation #band_scalding_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
 
+### ===== COLD EXPOSURE =====
+scoreboard objectives add vin.cold_exposure dummy
+scoreboard objectives add vin.cold_stage dummy
+
 ### ===== MISC PLAYER ATTRIBUTES =====
 
 scoreboard objectives add vin.over_edge dummy

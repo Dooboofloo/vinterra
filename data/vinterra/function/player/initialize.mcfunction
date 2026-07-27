@@ -11,8 +11,12 @@ scoreboard players set @s vin.wetness 0
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
 scoreboard players operation @s vin.warmth_effective = #warmth_default vin.player_meta
 
-# Reset warmth band
+# Initialize warmth band
 scoreboard players reset @s vin.warmth_band
+
+# Initialize cold exposure
+scoreboard players set @s vin.cold_exposure 0
+scoreboard players reset @s vin.cold_stage
 
 # Request urgent survival recalculation
 function vinterra:player/request_recalc
