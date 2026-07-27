@@ -7,20 +7,18 @@
 
 ## Classify the column beneath each grounded player
 
-execute as @a at @s if predicate vinterra:player/on_ground run scoreboard players set @s vin.over_edge 0
-
+execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vinterra:player/on_ground run scoreboard players set @s vin.over_edge 0
 # Center is over an edge, but there is support one block farther down
-execute as @a at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y if block ~ ~-1 ~ #vinterra:heat_raycast_passable run scoreboard players set @s vin.over_edge 1
-
+execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y if block ~ ~-1 ~ #vinterra:heat_raycast_passable run scoreboard players set @s vin.over_edge 1
 # Center is hanging over open air
-execute as @a at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y if block ~ ~-1 ~ #vinterra:heat_raycast_passable if block ~ ~-2 ~ #vinterra:heat_raycast_passable run scoreboard players set @s vin.over_edge 2
+execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y if block ~ ~-1 ~ #vinterra:heat_raycast_passable if block ~ ~-2 ~ #vinterra:heat_raycast_passable run scoreboard players set @s vin.over_edge 2
 
 
 ## Interpolate Warmth
 # Though each player's expensive calculations are done periodically,
 # their effective warmth is always being interpolated toward their target warmth
 
-execute as @a run function vinterra:survival/warmth/interpolate
+execute as @a[predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/interpolate
 
 
 ### True debug output

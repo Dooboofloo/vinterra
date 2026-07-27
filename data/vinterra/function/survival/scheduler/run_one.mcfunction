@@ -1,12 +1,10 @@
 # vinterra:survival/scheduler/run_one
 # Selects and recalculates exactly one longest-waiting player
 
-# Spend the budget for calculating this player, with an exception for urgent recalculations
-function vinterra:survival/scheduler/spend_budget
 
 # Find the greatest current wait time
 scoreboard players set #max_wait vin.schedule_meta -1
-scoreboard players operation #max_wait vin.schedule_meta > @a vin.recalc_wait
+scoreboard players operation #max_wait vin.schedule_meta > @a[predicate=!vinterra:player/currently_dead] vin.recalc_wait
 
 # Clear temporary selection tags
 tag @a remove vin.recalc_candidate
@@ -17,6 +15,12 @@ execute as @a[predicate=!vinterra:player/currently_dead] if score @s vin.recalc_
 
 # Break a tie arbitrarily, but select exactly one player
 tag @a[tag=vin.recalc_candidate,sort=arbitrary,limit=1] add vin.recalc_selected
+
+# Defensive guard if no candidate selected
+execute unless entity @a[tag=vin.recalc_selected] run return 0
+
+# Spend the budget for calculating this player, with an exception for urgent recalculations
+function vinterra:survival/scheduler/spend_budget
 
 # Debug output
 # tellraw @a[tag=vin.debug_viewer] [{text:"[Scheduler] Running Recalc for: "}, {selector:"@a[tag=vin.recalc_selected]"}]
