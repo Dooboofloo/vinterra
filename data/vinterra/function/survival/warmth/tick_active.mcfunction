@@ -14,14 +14,9 @@ execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vint
 execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y if block ~ ~-1 ~ #vinterra:heat_raycast_passable if block ~ ~-2 ~ #vinterra:heat_raycast_passable run scoreboard players set @s vin.over_edge 2
 
 
-## Interpolate Warmth
-# Though each player's expensive calculations are done periodically,
-# their effective warmth is always being interpolated toward their target warmth
-
-execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/interpolate
-
-## Determine Warmth Bands
-execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/band/update
+## Advance effective warmth and warmth bands periodically
+scoreboard players add #interpolate_clock vin.warmth_meta 1
+execute if score #interpolate_clock vin.warmth_meta >= #interpolate_interval vin.warmth_meta run function vinterra:survival/warmth/interpolate_all
 
 
 ### True debug output

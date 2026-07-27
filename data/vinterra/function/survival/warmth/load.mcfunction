@@ -23,6 +23,10 @@ scoreboard objectives add vin.warmth_tmp dummy
 
 scoreboard players set #warmth_smoothing vin.warmth_meta 18
 
+# Number of ticks between effective warmth interpolation steps
+scoreboard players set #interpolate_interval vin.warmth_meta 5
+scoreboard players set #interpolate_clock vin.warmth_meta 0
+
 
 ### ===== AMBIENT CONTRIBUTION =====
 
