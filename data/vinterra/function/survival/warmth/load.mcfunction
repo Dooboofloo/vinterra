@@ -1,7 +1,7 @@
 # vinterra:survival/warmth/load
 # Load entry point for the survival/warmth submodule
 
-### ===== FINAL WARMTH STATE =====
+### ===== WARMTH =====
 
 # Sampled warmth produced by the player's current circumstances
 scoreboard objectives add vin.warmth_target dummy
@@ -26,6 +26,13 @@ scoreboard players set #warmth_smoothing vin.warmth_meta 18
 # Number of ticks between effective warmth interpolation steps
 scoreboard players set #interpolate_interval vin.warmth_meta 5
 scoreboard players set #interpolate_clock vin.warmth_meta 0
+
+# Number constants
+scoreboard players set #-1 vin.warmth_meta -1
+scoreboard players set #2 vin.warmth_meta 2
+scoreboard players set #3 vin.warmth_meta 3
+scoreboard players set #4 vin.warmth_meta 4
+scoreboard players set #8 vin.warmth_meta 8
 
 
 ### ===== AMBIENT CONTRIBUTION =====
@@ -81,12 +88,6 @@ scoreboard players set #heat_tier_4 vin.warmth_meta 108
 # The max number of heat sources allowed to apply to the player
 # Sorted from highest to lowest
 scoreboard players set #aggregate_limit vin.warmth_meta 4
-
-# Number constants
-scoreboard players set #2 vin.warmth_meta 2
-scoreboard players set #3 vin.warmth_meta 3
-scoreboard players set #4 vin.warmth_meta 4
-scoreboard players set #8 vin.warmth_meta 8
 
 
 ## BLOCK COLD
