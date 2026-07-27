@@ -11,4 +11,6 @@ scoreboard players set @s vin.wetness 0
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
 scoreboard players operation @s vin.warmth_effective = #warmth_default vin.player_meta
 
-# TODO: Request urgent warmth recalculation
+function vinterra:player/request_recalc
+
+tellraw @a[tag=vin.debug_viewer] [{text:"[Player] Player Respawned: "}, {selector:"@s"}]

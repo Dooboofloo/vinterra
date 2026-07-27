@@ -15,7 +15,11 @@ execute as @a run scoreboard players add #online vin.schedule_meta 1
 # This is how we more or less evenly space the calculations based on player count                          
 scoreboard players operation #budget vin.schedule_meta += #online vin.schedule_meta
 
-# Spend at most one calculation this tick
+# Urgent requests bypass the normal budget requirement, but the scheduler
+# still performs no more than one complete recalculation this tick.
+execute if entity @a[tag=vin.recalc_urgent] run return run function vinterra:survival/scheduler/run_urgent
+
+# Otherwise, perform ordinary scheduled work when enough budget exists
 execute if score #budget vin.schedule_meta >= #schedule_window vin.schedule_meta run function vinterra:survival/scheduler/run_one
 
 # Ex. 3 players online. 
