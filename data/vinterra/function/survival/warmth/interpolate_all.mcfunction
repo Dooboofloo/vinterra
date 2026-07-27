@@ -9,4 +9,4 @@ execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_de
 
 execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/cold_exposure/update
 
-execute as @a[tag=vin.debug_viewer] run tellraw @s [{text:"[Interpolate All] Band: "},{score:{name:"@s", objective:"vin.warmth_band"}},{text:"\n               Exposure: "},{score:{name:"@s", objective:"vin.cold_exposure"}},{text:"\n                    Stage: "},{score:{name:"@s", objective:"vin.cold_stage"}}]
+# execute as @a[tag=vin.debug_viewer] run tellraw @s [{text:"[Interpolate All] Band: "},{score:{name:"@s", objective:"vin.warmth_band"}},{text:"\n               Exposure: "},{score:{name:"@s", objective:"vin.cold_exposure"}},{text:"\n                    Stage: "},{score:{name:"@s", objective:"vin.cold_stage"}}]

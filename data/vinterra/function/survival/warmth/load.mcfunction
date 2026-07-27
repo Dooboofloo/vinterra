@@ -107,11 +107,6 @@ scoreboard players set #snow_layer_shell_1 vin.warmth_meta 2
 scoreboard players set #snow_layer_shell_2 vin.warmth_meta 1
 
 
-### ===== EQUIPMENT CONTRIBUTION =====
-
-scoreboard objectives add vin.warmth_equipment_raw dummy
-
-
 ### ===== WARMTH BANDS ======
 
 # Current Classified Warmth Bands:

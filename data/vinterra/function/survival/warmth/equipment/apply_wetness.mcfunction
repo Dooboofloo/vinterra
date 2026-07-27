@@ -3,8 +3,6 @@
 
 # Wetness decreases the effectiveness of equipment warmth linearly
 
-# Begin with the raw equipment value
-scoreboard players operation @s vin.warmth_equipment = @s vin.warmth_equipment_raw
 
 # Calculate remaining insulation from 0–1600
 scoreboard players operation @s vin.warmth_tmp = #wetness_max vin.comfort_meta
