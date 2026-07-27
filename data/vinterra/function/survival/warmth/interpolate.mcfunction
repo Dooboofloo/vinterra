@@ -13,8 +13,9 @@ execute if score @s vin.warmth_tmp matches 0 run return 0
 scoreboard players operation @s vin.warmth_step = @s vin.warmth_tmp
 execute if score @s vin.warmth_step matches ..-1 run scoreboard players operation @s vin.warmth_step *= #-1 vin.warmth_meta
 
-# Scale the unsigned magnitude
-scoreboard players operation @s vin.warmth_step /= #warmth_smoothing vin.warmth_meta
+# Scale the unsigned magnitude, using different thermal scales
+execute if score @s vin.warmth_tmp matches ..-1 run scoreboard players operation @s vin.warmth_step /= #cooling_smoothing vin.warmth_meta
+execute if score @s vin.warmth_tmp matches 1.. run scoreboard players operation @s vin.warmth_step /= #warming_smoothing vin.warmth_meta
 
 # Restore the original negative sign when cooling (prevents asymmetric interpolation due to integer division)
 execute if score @s vin.warmth_tmp matches ..-1 run scoreboard players operation @s vin.warmth_step *= #-1 vin.warmth_meta

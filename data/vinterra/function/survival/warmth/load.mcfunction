@@ -21,7 +21,10 @@ scoreboard objectives add vin.warmth_block dummy
 scoreboard objectives add vin.warmth_meta dummy
 scoreboard objectives add vin.warmth_tmp dummy
 
-scoreboard players set #warmth_smoothing vin.warmth_meta 18
+# Different smoothing values for cooling vs warming (smaller value = faster)
+# -> Warming takes a little longer than cooling down
+scoreboard players set #cooling_smoothing vin.warmth_meta 16
+scoreboard players set #warming_smoothing vin.warmth_meta 20
 
 # Number of ticks between effective warmth interpolation steps
 scoreboard players set #interpolate_interval vin.warmth_meta 5
