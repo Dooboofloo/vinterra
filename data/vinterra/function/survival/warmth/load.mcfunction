@@ -125,6 +125,27 @@ scoreboard players set #band_hot_min vin.warmth_meta 27
 scoreboard players set #band_scorching_min vin.warmth_meta 54
 scoreboard players set #band_scalding_min vin.warmth_meta 80
 
+# Recovery (cold -> warm) transition hysteresis
+scoreboard players set #band_recovery_threshold vin.warmth_meta 5
+
+# Derived recovery boundaries from the base boundaries
+scoreboard players operation #band_frigid_recover vin.warmth_meta = #band_frigid_min vin.warmth_meta
+scoreboard players operation #band_frigid_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
+
+scoreboard players operation #band_cold_recover vin.warmth_meta = #band_cold_min vin.warmth_meta
+scoreboard players operation #band_cold_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
+
+scoreboard players operation #band_warm_recover vin.warmth_meta = #band_warm_min vin.warmth_meta
+scoreboard players operation #band_warm_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
+
+scoreboard players operation #band_hot_recover vin.warmth_meta = #band_hot_min vin.warmth_meta
+scoreboard players operation #band_hot_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
+
+scoreboard players operation #band_scorching_recover vin.warmth_meta = #band_scorching_min vin.warmth_meta
+scoreboard players operation #band_scorching_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
+
+scoreboard players operation #band_scalding_recover vin.warmth_meta = #band_scalding_min vin.warmth_meta
+scoreboard players operation #band_scalding_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
 
 ### ===== MISC PLAYER ATTRIBUTES =====
 
