@@ -7,6 +7,7 @@
         
         "#vinterra:groups/quartz",
 
-        "minecraft:amethyst_block"
+        "minecraft:medium_amethyst_bud",
+        "minecraft:small_amethyst_bud"
     ]
 }

@@ -2,7 +2,7 @@
 # Calculate's the player's current biome's warmth contribution
 
 # TODO: Update biome tags with new biomes once they exist
-# TODO: Consider other dimensions here, though nether dimensions could also just be thrown in these tags
+# TODO: Consider other dimensions here, though nether dimensions could also just be thrown in these tags. Nether should be colder
 
 execute if biome ~ ~ ~ #vinterra:climate/mild run return run scoreboard players operation @s vin.warmth_ambient += #climate_mild vin.warmth_meta
 execute if biome ~ ~ ~ #vinterra:climate/cold run return run scoreboard players operation @s vin.warmth_ambient += #climate_cold vin.warmth_meta

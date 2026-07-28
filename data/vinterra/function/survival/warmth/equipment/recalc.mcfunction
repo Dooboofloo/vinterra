@@ -15,4 +15,4 @@ function vinterra:survival/warmth/equipment/apply_wetness
 scoreboard players operation @s vin.warmth_equipment = @s vin.equip_insulation
 scoreboard players operation @s vin.warmth_equipment -= @s vin.equip_cold
 
-# TODO: Netherite will have some kind of special thermal properties, whether just a high base insulation by default or some kind of cold value clamping
+# TODO: Netherite will have some kind of special thermal properties, whether just a high warmth value (unaffected by wetness) or some kind of cold value clamping

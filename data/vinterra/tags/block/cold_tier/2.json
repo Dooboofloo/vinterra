@@ -2,6 +2,11 @@
     "values": [
         "minecraft:ice",
         "minecraft:snow_block",
-        "minecraft:powder_snow_cauldron"
+        "minecraft:powder_snow_cauldron",
+
+        "minecraft:amethyst_block",
+        "minecraft:budding_amethyst",
+        "minecraft:amethyst_cluster",
+        "minecraft:large_amethyst_bud"
     ]
 }
