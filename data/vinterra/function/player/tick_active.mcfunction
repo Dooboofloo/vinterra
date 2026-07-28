@@ -7,4 +7,3 @@ execute as @a[tag=vin.player_initialized,scores={vin.player_respawn=1}] run func
 
 # Initialize new players only after their first tick alive (prevents double urgent recalc on join)
 execute as @a[tag=!vin.player_initialized,scores={vin.player_respawn=1..}] run function vinterra:player/initialize
-

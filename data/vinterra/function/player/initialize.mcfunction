@@ -17,6 +17,9 @@ scoreboard players reset @s vin.warmth_band
 # Initialize cold exposure
 function vinterra:survival/warmth/cold_exposure/reset
 
+# Initialize player health attributes
+function vinterra:player/health/initialize
+
 # Request urgent survival recalculation
 function vinterra:player/request_recalc
 

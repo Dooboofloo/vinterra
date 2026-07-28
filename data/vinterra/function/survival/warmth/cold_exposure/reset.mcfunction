@@ -5,6 +5,6 @@
 scoreboard players set @s vin.cold_exposure 0
 scoreboard players set @s vin.cold_stage 0
 
-# Eventually ensure the stage-0 maximum-health state is applied here
+function vinterra:player/health/max_health/apply_cold_exposure
 
 return 1

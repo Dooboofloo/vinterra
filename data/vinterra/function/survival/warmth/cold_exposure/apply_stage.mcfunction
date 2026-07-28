@@ -7,11 +7,10 @@
 execute if score @s vin.cold_stage < @s vin.warmth_tmp run function vinterra:feedback/warmth/cold_exposure/worse
 execute if score @s vin.cold_stage > @s vin.warmth_tmp run function vinterra:feedback/warmth/cold_exposure/better
 
+# Commit the new stage
 scoreboard players operation @s vin.cold_stage = @s vin.warmth_tmp
 
-# TODO:
-# - apply maximum-health modifier
-# - display health-stage feedback
-# - play transition sound
+# Apply mechanical consequences
+function vinterra:player/health/max_health/apply_cold_exposure
 
 return 1
