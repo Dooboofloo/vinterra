@@ -18,6 +18,11 @@ execute as @a[predicate=!vinterra:player/currently_dead] at @s if predicate vint
 scoreboard players add #interpolate_clock vin.warmth_meta 1
 execute if score #interpolate_clock vin.warmth_meta >= #interpolate_interval vin.warmth_meta run function vinterra:survival/warmth/interpolate_all
 
+## Advance cold exposure independently
+scoreboard players add #exposure_clock vin.warmth_meta 1
+execute if score #exposure_clock vin.warmth_meta >= #exposure_interval vin.warmth_meta run function vinterra:survival/warmth/cold_exposure/update_all
+
 
 ### True debug output
-execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text:"Effective Warmth: "},{score:{name:"@s",objective:"vin.warmth_effective"}}, {text:" (Target Warmth: "},{score:{name:"@s",objective:"vin.warmth_target"}}, {text:")"}]
+# W: {vin.warmth_effective} ({vin.warmth_target}) WB: {vin.warmth_band} CE: {vin.cold_exposure} ({vin.cold_stage})
+execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ("},{score:{name:"@s",objective:"vin.warmth_target"}},{text: ") WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " ("},{score:{name:"@s",objective:"vin.cold_stage"}},{text: ")"}]

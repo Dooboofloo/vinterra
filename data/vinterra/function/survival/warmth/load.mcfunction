@@ -151,8 +151,37 @@ scoreboard players operation #band_scalding_recover vin.warmth_meta = #band_scal
 scoreboard players operation #band_scalding_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
 
 ### ===== COLD EXPOSURE =====
+
+# Accumulated cold exposure
 scoreboard objectives add vin.cold_exposure dummy
+
+# Current cold exposure stage and max health penalty stage: 0-3
 scoreboard objectives add vin.cold_stage dummy
+
+# Exposure is updated independently of body-warmth interpolation
+scoreboard players set #exposure_interval vin.warmth_meta 5
+scoreboard players set #exposure_clock vin.warmth_meta 0
+
+## Band equilibrium values
+scoreboard players set #exposure_target_safe vin.warmth_meta 0
+scoreboard players set #exposure_target_cold vin.warmth_meta 150
+scoreboard players set #exposure_target_frigid vin.warmth_meta 250
+scoreboard players set #exposure_target_freezing vin.warmth_meta 350
+
+## Band approach rates
+scoreboard players set #exposure_rate_freezing vin.warmth_meta 4
+scoreboard players set #exposure_rate_frigid vin.warmth_meta 2
+scoreboard players set #exposure_rate_cold vin.warmth_meta 1
+
+scoreboard players set #exposure_rate_warm vin.warmth_meta 1
+scoreboard players set #exposure_rate_hot vin.warmth_meta 2
+scoreboard players set #exposure_rate_scorching vin.warmth_meta 4
+scoreboard players set #exposure_rate_scalding vin.warmth_meta 8
+
+## Stage boundaries
+scoreboard players set #exposure_stage_1_min vin.warmth_meta 100
+scoreboard players set #exposure_stage_2_min vin.warmth_meta 200
+scoreboard players set #exposure_stage_3_min vin.warmth_meta 300
 
 ### ===== MISC PLAYER ATTRIBUTES =====
 

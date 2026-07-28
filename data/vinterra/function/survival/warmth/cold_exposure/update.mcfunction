@@ -2,27 +2,25 @@
 # Moves cold exposure toward the target represented by the current warmth band
 # Must be executed as the player
 
-# Determine target exposure using per-player scratch state
-scoreboard players set @s vin.warmth_tmp 0
+# Handle missing or corrupted exposure state
+execute unless score @s vin.cold_exposure matches -2147483648..2147483647 run scoreboard players set @s vin.cold_exposure 0
 
-execute if score @s vin.warmth_band matches -1 run scoreboard players set @s vin.warmth_tmp 100
-execute if score @s vin.warmth_band matches -2 run scoreboard players set @s vin.warmth_tmp 200
-execute if score @s vin.warmth_band matches -3 run scoreboard players set @s vin.warmth_tmp 300
+# Clamp corrupted exposure
+execute if score @s vin.cold_exposure matches ..-1 run scoreboard players set @s vin.cold_exposure 0
+execute if score @s vin.cold_exposure > #exposure_target_freezing vin.warmth_meta run scoreboard players operation @s vin.cold_exposure = #exposure_target_freezing vin.warmth_meta
 
-# Already at the correct exposure
-execute if score @s vin.cold_exposure = @s vin.warmth_tmp run return 0
+# Safe bands all have an equilibrium of zero
+scoreboard players operation @s vin.warmth_tmp = #exposure_target_safe vin.warmth_meta
 
-# Recover toward the lower target
-execute if score @s vin.cold_exposure > @s vin.warmth_tmp run return run function vinterra:survival/warmth/cold_exposure/recover
+# Moves cold exposure toward the equilibrium represented by the current warmth band
+execute if score @s vin.warmth_band matches -1 run scoreboard players operation @s vin.warmth_tmp = #exposure_target_cold vin.warmth_meta
+execute if score @s vin.warmth_band matches -2 run scoreboard players operation @s vin.warmth_tmp = #exposure_target_frigid vin.warmth_meta
+execute if score @s vin.warmth_band matches -3 run scoreboard players operation @s vin.warmth_tmp = #exposure_target_freezing vin.warmth_meta
 
-# Accumulate toward the higher target at a band-dependent rate
-execute if score @s vin.cold_exposure < @s vin.warmth_tmp if score @s vin.warmth_band matches -1 run scoreboard players add @s vin.cold_exposure 1
-execute if score @s vin.cold_exposure < @s vin.warmth_tmp if score @s vin.warmth_band matches -2 run scoreboard players add @s vin.cold_exposure 2
-execute if score @s vin.cold_exposure < @s vin.warmth_tmp if score @s vin.warmth_band matches -3 run scoreboard players add @s vin.cold_exposure 4
+# Exposure is already at the current band's equilibrium
+execute if score @s vin.cold_exposure = @s vin.warmth_tmp run return run function vinterra:survival/warmth/cold_exposure/update_stage
 
-# Clamp worsening movement to the current target
-execute if score @s vin.cold_exposure > @s vin.warmth_tmp run scoreboard players operation @s vin.cold_exposure = @s vin.warmth_tmp
+# Move upward or downward toward the equilibrium
+execute if score @s vin.cold_exposure < @s vin.warmth_tmp run return run function vinterra:survival/warmth/cold_exposure/accumulate
 
-function vinterra:survival/warmth/cold_exposure/update_stage
-
-return 1
+return run function vinterra:survival/warmth/cold_exposure/recover
