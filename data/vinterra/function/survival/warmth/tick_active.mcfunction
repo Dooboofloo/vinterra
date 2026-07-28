@@ -24,5 +24,4 @@ execute if score #exposure_clock vin.warmth_meta >= #exposure_interval vin.warmt
 
 
 ### True debug output
-# W: {vin.warmth_effective} ({vin.warmth_target}) WB: {vin.warmth_band} CE: {vin.cold_exposure} ({vin.cold_stage})
-execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ("},{score:{name:"@s",objective:"vin.warmth_target"}},{text: ") WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " ("},{score:{name:"@s",objective:"vin.cold_stage"}},{text: ")"}]
+execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ➡ "},{score:{name:"@s",objective:"vin.warmth_target"}},{text: " | WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " | CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " | CS: "},{score:{name:"@s",objective:"vin.cold_stage"}}]
