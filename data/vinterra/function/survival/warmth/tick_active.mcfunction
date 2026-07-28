@@ -24,4 +24,5 @@ execute if score #exposure_clock vin.warmth_meta >= #exposure_interval vin.warmt
 
 
 ### True debug output
-execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ➡ "},{score:{name:"@s",objective:"vin.warmth_target"}},{text: " | WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " | CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " | CS: "},{score:{name:"@s",objective:"vin.cold_stage"}}]
+# W: {warmth_effective} ➡ {warmth_target} | EQ: {warmth_equipment} (I: {equip_insulation} C: {equip_cold}) | WB: {warmth_band} | CE: {cold_exposure} ({cold_stage}) 
+execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ➡ "},{score:{name:"@s",objective:"vin.warmth_target"}},{text:" | EQ: "},{score:{name:"@s",objective:"vin.warmth_equipment"}},{text:" (I: "},{score:{name:"@s",objective:"vin.equip_insulation"}},{text:" C: "},{score:{name:"@s",objective:"vin.equip_cold"}},{text: ") | WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " | CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " ("},{score:{name:"@s",objective:"vin.cold_stage"}},{text: ")"}]

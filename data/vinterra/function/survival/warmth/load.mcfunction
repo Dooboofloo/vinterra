@@ -92,7 +92,6 @@ scoreboard players set #heat_tier_4 vin.warmth_meta 108
 # Sorted from highest to lowest
 scoreboard players set #aggregate_limit vin.warmth_meta 4
 
-
 ## BLOCK COLD
 
 # Block cold contribution for each player
@@ -106,6 +105,26 @@ scoreboard players set #cold_scale vin.warmth_meta 16
 scoreboard players set #snow_layer_shell_1 vin.warmth_meta 2
 scoreboard players set #snow_layer_shell_2 vin.warmth_meta 1
 
+
+### ===== EQUIPMENT CONTRIBUTION =====
+
+# Each piece of equipment has the following:
+# - An insulation value, which provides warmth but is reduced linearly with wetness
+# - A cold value which reduces warmth
+# Either value can be omitted from a piece of equipment
+scoreboard objectives add vin.equip_insulation dummy
+scoreboard objectives add vin.equip_cold dummy
+
+## Default Equipment Values
+scoreboard players set #leather_head vin.warmth_meta 4
+scoreboard players set #leather_chest vin.warmth_meta 12
+scoreboard players set #leather_legs vin.warmth_meta 8
+scoreboard players set #leather_feet vin.warmth_meta 4
+
+scoreboard players set #cold_armor_head vin.warmth_meta 1
+scoreboard players set #cold_armor_chest vin.warmth_meta 3
+scoreboard players set #cold_armor_legs vin.warmth_meta 2
+scoreboard players set #cold_armor_feet vin.warmth_meta 1
 
 ### ===== WARMTH BANDS ======
 
@@ -150,6 +169,7 @@ scoreboard players operation #band_scorching_recover vin.warmth_meta += #band_re
 scoreboard players operation #band_scalding_recover vin.warmth_meta = #band_scalding_min vin.warmth_meta
 scoreboard players operation #band_scalding_recover vin.warmth_meta += #band_recovery_threshold vin.warmth_meta
 
+
 ### ===== COLD EXPOSURE =====
 
 # Accumulated cold exposure
@@ -184,6 +204,7 @@ scoreboard players set #exposure_recovery_scalding vin.warmth_meta 8
 scoreboard players set #exposure_stage_1_min vin.warmth_meta 100
 scoreboard players set #exposure_stage_2_min vin.warmth_meta 200
 scoreboard players set #exposure_stage_3_min vin.warmth_meta 300
+
 
 ### ===== MISC PLAYER ATTRIBUTES =====
 
