@@ -168,15 +168,17 @@ scoreboard players set #exposure_target_cold vin.warmth_meta 150
 scoreboard players set #exposure_target_frigid vin.warmth_meta 250
 scoreboard players set #exposure_target_freezing vin.warmth_meta 350
 
-## Band approach rates
-scoreboard players set #exposure_rate_freezing vin.warmth_meta 4
-scoreboard players set #exposure_rate_frigid vin.warmth_meta 2
-scoreboard players set #exposure_rate_cold vin.warmth_meta 1
+## Cold band accumulation rates
+scoreboard players set #exposure_gain_cold vin.warmth_meta 1
+scoreboard players set #exposure_gain_frigid vin.warmth_meta 2
+scoreboard players set #exposure_gain_freezing vin.warmth_meta 4
 
-scoreboard players set #exposure_rate_warm vin.warmth_meta 1
-scoreboard players set #exposure_rate_hot vin.warmth_meta 2
-scoreboard players set #exposure_rate_scorching vin.warmth_meta 4
-scoreboard players set #exposure_rate_scalding vin.warmth_meta 8
+## Recovery rates
+scoreboard players set #exposure_recovery_cold vin.warmth_meta 1
+scoreboard players set #exposure_recovery_warm vin.warmth_meta 1
+scoreboard players set #exposure_recovery_hot vin.warmth_meta 2
+scoreboard players set #exposure_recovery_scorching vin.warmth_meta 4
+scoreboard players set #exposure_recovery_scalding vin.warmth_meta 8
 
 ## Stage boundaries
 scoreboard players set #exposure_stage_1_min vin.warmth_meta 100
