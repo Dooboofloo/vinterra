@@ -6,7 +6,8 @@
 # Reset wetness
 scoreboard players set @s vin.wetness 0
 
-# Reset shelter
+# Reset environmental coverage states
+tag @s remove vin.player_covered
 tag @s remove vin.player_sheltered
 
 # vinterra:survival/warmth

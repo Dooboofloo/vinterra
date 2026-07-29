@@ -21,11 +21,6 @@
     "#minecraft:fence_gates",
     "#minecraft:walls",
 
-    "#minecraft:doors",
-    "#vinterra:copper/doors",
-    "#minecraft:trapdoors",
-    "#vinterra:copper/trapdoors",
-
     "minecraft:end_rod",
     "minecraft:light",
     "minecraft:structure_void",
@@ -98,8 +93,6 @@
 
     "minecraft:water",
     "minecraft:snow",
-
-    "#minecraft:slabs",
     
     "minecraft:dragon_egg",
     "#vinterra:groups/torches",

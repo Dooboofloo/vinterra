@@ -58,13 +58,6 @@
     "minecraft:ladder",
     "minecraft:scaffolding",
 
-    "minecraft:lectern",
-    "minecraft:enchanting_table",
-    "minecraft:chest",
-    "minecraft:trapped_chest",
-    "#minecraft:copper_chests",
-    "minecraft:ender_chest",
-
     "minecraft:sugar_cane",
     "minecraft:pink_petals",
     "minecraft:spore_blossom",
@@ -91,15 +84,12 @@
     "minecraft:iron_chain",
     "#vinterra:copper/chains",
 
-    "#vinterra:copper/grate",
     "#vinterra:copper/lightning_rod",
 
     "#vinterra:groups/heads",
 
     "minecraft:water",
     "minecraft:snow",
-
-    "#minecraft:slabs",
     
     "minecraft:dragon_egg",
     "#vinterra:groups/torches",

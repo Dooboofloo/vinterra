@@ -5,9 +5,27 @@
 scoreboard objectives add vin.comfort_meta dummy
 scoreboard objectives add vin.comfort_tmp dummy
 
+### ===== COVERAGE =====
+
+# Whether precipitation is vertically blocked above the player
+# Stored as the per-player tag vin.player_covered
+
 ### ===== SHELTER =====
 
-# Per-player shelter info is a tag (vin.player_sheltered)
+# Whether the player is beneath a locally contained overhead ceiling basin
+# Stored as the per-player tag vin.player_sheltered
+
+# Horizontal BFS distance stored on temporary shelter nodes
+scoreboard objectives add vin.shelter_depth dummy
+
+# Maximum number of blocks searched upward for a ceiling
+scoreboard players set #shelter_ceiling_limit vin.comfort_meta 24
+
+# Maximum horizontal graph distance from the initial ceiling node
+scoreboard players set #shelter_radius vin.comfort_meta 3
+
+# Hard limit on temporary shelter nodes
+scoreboard players set #shelter_node_limit vin.comfort_meta 64
 
 ### ===== WETNESS =====
 

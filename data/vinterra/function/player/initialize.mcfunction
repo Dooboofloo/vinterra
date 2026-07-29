@@ -6,6 +6,10 @@
 # Initialize wetness
 scoreboard players set @s vin.wetness 0
 
+# Reset environmental coverage states
+tag @s remove vin.player_covered
+tag @s remove vin.player_sheltered
+
 # vinterra:survival/warmth
 # Initialize warmth
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
