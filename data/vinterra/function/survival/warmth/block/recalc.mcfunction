@@ -7,9 +7,6 @@
 # soul sand and mud. If the player has risen into the next block while jumping,
 # shift back down when a passable block is above solid support.
 
-# Debug only
-# kill @e[tag=vin.test]
-
 # Grounded players always use their current aligned position
 execute if predicate vinterra:player/on_ground positioned ~ ~0.125 ~ align y run return run function vinterra:survival/warmth/block/recalc_positioned
 

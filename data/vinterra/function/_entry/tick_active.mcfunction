@@ -5,9 +5,6 @@
 # Module load order:
 # World -> Player -> Survival
 
-# REMOVE FOR RELEASE
-tag @a add vin.debug_viewer
-
 # Module active tick functions
 function vinterra:world/tick_active
 function vinterra:player/tick_active
