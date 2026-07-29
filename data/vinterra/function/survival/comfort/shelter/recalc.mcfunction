@@ -7,6 +7,9 @@
 function vinterra:survival/comfort/shelter/cleanup
 scoreboard players set @s vin.shelter 0
 
+# Direct exposure to precipitation guarantees that the player is not sheltered
+execute unless entity @s[tag=vin.player_covered] run return 0
+
 # Initialize shared search state
 scoreboard players set #shelter_nodes vin.comfort_tmp 0
 scoreboard players set #shelter_overflow vin.comfort_tmp 0
