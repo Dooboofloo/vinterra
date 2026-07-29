@@ -17,6 +17,8 @@ execute unless score #sky vin.time matches -2147483648..2147483647 run scoreboar
 execute unless score #phase vin.time matches -2147483648..2147483647 run scoreboard players set #phase vin.time 0
 execute unless score #tmp vin.time_meta matches -2147483648..2147483647 run scoreboard players set #tmp vin.time_meta 0
 
+execute unless score #advance_time vin.time_meta matches -2147483648..2147483647 run scoreboard players set #advance_time vin.time_meta 1
+
 # Initialize scoreboard constants
 scoreboard players set #1000 vin.time_meta 1000
 scoreboard players set #6000 vin.time_meta 6000
