@@ -6,6 +6,9 @@
 # Reset wetness
 scoreboard players set @s vin.wetness 0
 
+# Reset environmental isolation
+scoreboard players set @s vin.shelter 0
+
 # Reset environmental coverage state
 tag @s remove vin.player_covered
 
