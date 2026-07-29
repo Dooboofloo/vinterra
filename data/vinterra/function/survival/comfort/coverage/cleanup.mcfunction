@@ -4,6 +4,5 @@
 
 kill @e[type=marker,tag=vin.coverage_probe]
 kill @e[type=marker,tag=vin.coverage_limit]
-kill @e[type=marker,tag=vin.coverage_ceiling]
 
 return 1

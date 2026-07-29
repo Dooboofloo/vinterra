@@ -2,13 +2,12 @@
 # Initializes player-owned variables
 # Executed as a player upon first join
 
-# vinterra:survival/comfort/wetness
+# vinterra:survival/comfort
 # Initialize wetness
 scoreboard players set @s vin.wetness 0
 
-# Reset environmental coverage states
+# Reset environmental coverage state
 tag @s remove vin.player_covered
-tag @s remove vin.player_sheltered
 
 # vinterra:survival/warmth
 # Initialize warmth

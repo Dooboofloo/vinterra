@@ -1,11 +1,10 @@
 # vinterra:survival/comfort/coverage/scan
-# Scans upward through shelter-flow-passable blocks
+# Scans upward through coverage-passable blocks
 # Must be executed as the player
 #
 # vin.coverage_probe marks the current vertical-search position.
 # #coverage_probe_y contains its current block Y coordinate.
 # #coverage_limit_y contains the world-surface upper bound.
-# #coverage_rise contains the distance traveled from the player's eye block.
 
 # Defensive guard
 execute unless entity @e[type=marker,tag=vin.coverage_probe,limit=1] run return run function vinterra:survival/comfort/coverage/fail
@@ -19,6 +18,5 @@ execute at @e[type=marker,tag=vin.coverage_probe,limit=1] unless block ~ ~1 ~ #v
 # Continue upward through the passable column
 execute at @e[type=marker,tag=vin.coverage_probe,limit=1] run tp @e[type=marker,tag=vin.coverage_probe,limit=1] ~ ~1 ~
 scoreboard players add #coverage_probe_y vin.comfort_tmp 1
-scoreboard players add #coverage_rise vin.comfort_tmp 1
 
 return run function vinterra:survival/comfort/coverage/scan

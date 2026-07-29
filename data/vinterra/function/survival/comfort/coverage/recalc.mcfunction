@@ -2,17 +2,9 @@
 # Determines whether precipitation is directly blocked above the player
 # Must be executed as and at the player
 # The survival scheduler guarantees only one active player recalculation
-#
-# On success:
-# - The player receives vin.player_covered
-# - #coverage_rise contains the distance to the ceiling-adjacent air block
-# - vin.coverage_ceiling marks that ceiling-adjacent air block for shelter
 
 function vinterra:survival/comfort/coverage/cleanup
 tag @s remove vin.player_covered
-
-# Reset temporary vertical-search state
-scoreboard players set #coverage_rise vin.comfort_tmp 0
 
 # Use the world-surface heightmap only as a finite upper bound
 execute positioned over world_surface run summon marker ~ ~ ~ {Tags:["vin.coverage_limit"]}

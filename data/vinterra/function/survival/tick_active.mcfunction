@@ -8,6 +8,3 @@ function vinterra:survival/warmth/tick_active
 
 # Expensive survival recalculations scheduler
 function vinterra:survival/scheduler/tick_active
-
-# TEST ONLY
-# execute as @a at @s run function vinterra:survival/recalc

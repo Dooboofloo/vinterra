@@ -21,8 +21,3 @@ execute if score #interpolate_clock vin.warmth_meta >= #interpolate_interval vin
 ## Advance cold exposure independently
 scoreboard players add #exposure_clock vin.warmth_meta 1
 execute if score #exposure_clock vin.warmth_meta >= #exposure_interval vin.warmth_meta run function vinterra:survival/warmth/cold_exposure/update_all
-
-
-### True debug output
-# W: {warmth_effective} ➡ {warmth_target} | EQ: {warmth_equipment} (I: {equip_insulation} C: {equip_cold}) | WB: {warmth_band} | CE: {cold_exposure} ({cold_stage}) 
-execute as @a[tag=vin.debug_viewer] run title @s actionbar [{text: "W: "},{score:{name:"@s",objective:"vin.warmth_effective"}},{text: " ➡ "},{score:{name:"@s",objective:"vin.warmth_target"}},{text:" | EQ: "},{score:{name:"@s",objective:"vin.warmth_equipment"}},{text:" (I: "},{score:{name:"@s",objective:"vin.equip_insulation"}},{text:" C: "},{score:{name:"@s",objective:"vin.equip_cold"}},{text: ") | WB: "},{score:{name:"@s",objective:"vin.warmth_band"}},{text: " | CE: "},{score:{name:"@s",objective:"vin.cold_exposure"}},{text: " ("},{score:{name:"@s",objective:"vin.cold_stage"}},{text: ")"}]
