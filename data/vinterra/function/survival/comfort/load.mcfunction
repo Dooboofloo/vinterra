@@ -3,6 +3,11 @@
 
 ### ===== GENERIC COMFORT =====
 scoreboard objectives add vin.comfort_meta dummy
+scoreboard objectives add vin.comfort_tmp dummy
+
+### ===== SHELTER =====
+
+# Per-player shelter info is a tag (vin.player_sheltered)
 
 ### ===== WETNESS =====
 
