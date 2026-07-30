@@ -12,18 +12,20 @@ scoreboard objectives add vin.comfort_tmp dummy
 
 ### ===== SHELTER =====
 
-# Player local environmental isolation provided by surrounding structure
-# Range: 0 (fully exposed) to 100 (fully sheltered)
+# Player environmental isolation provided by surrounding structure
+# Range: 0 (fully exposed) to #shelter_max (fully sheltered)
 scoreboard objectives add vin.shelter dummy
 
-# Maximum shelter value
-scoreboard players set #shelter_max vin.comfort_meta 100
+# Active raycast shelter scale (sum of all possible weighted rays)
+scoreboard players set #shelter_max vin.comfort_meta 1024
 
-# Maximum number of connected passable cells that may form a sheltered volume
-scoreboard players set #shelter_volume_limit vin.comfort_meta 128
+# Raycast distance: 16 half-block steps = 8 blocks
+scoreboard players set #shelter_ray_step_limit vin.comfort_meta 16
 
-# TODO: Currently, the shelter system is essentially binary (either 0 OR 100).
-# In the future, it will be more continuous
+# Ray transmission scale
+# Currently binary: 16 for fully transmissive or 0 for blocked
+# Future block state detectors may apply intermediate values
+scoreboard players set #shelter_transmission_max vin.comfort_meta 16
 
 ### ===== WETNESS =====
 
