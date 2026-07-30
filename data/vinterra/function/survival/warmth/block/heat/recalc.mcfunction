@@ -2,7 +2,10 @@
 # Calculates landmark heat visibility for the executing player
 # Must be executed as and at the player
 
-# TODO: Prevent false positives from raycast stepping through corner occlusions
+# Thermal raycasts intentionally allow corner-grazing paths
+# This approximates heat transfer through imperfect structural seams and keeps
+# environmental exposure and block heat behavior consistent.
+# Just add corner blocks to your bases if you're worried about it!
 
 # Discover nearby candidate heat landmarks, discarding probes with no heat value
 function vinterra:survival/warmth/block/heat/discover

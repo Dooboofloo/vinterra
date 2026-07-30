@@ -2,8 +2,8 @@
 # Scales environmental ambient warmth according to player-local shelter
 # Must be executed as the player
 #
-# Shelter 0 retains 100% of outside ambient conditions.
-# Shelter 100 retains 0% of outside ambient conditions.
+# No shelter retains 100% of outside ambient conditions.
+# Max shelter retains 0% of outside ambient conditions.
 
 # Calculate the percentage of exterior conditions that still reaches the player
 scoreboard players operation @s vin.warmth_tmp = #shelter_max vin.comfort_meta

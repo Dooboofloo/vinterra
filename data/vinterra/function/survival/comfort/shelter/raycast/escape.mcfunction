@@ -2,6 +2,9 @@
 # Removes the escaped portion of the current ray's weight from shelter
 # Must be executed as the player
 
+# Debug
+execute if entity @s[tag=vin.debug_viewer] align xyz positioned ~0.5 ~0.5 ~0.5 run summon block_display ~ ~ ~ {Glowing:1b,Tags:["vin.test"],glow_color_override:16711680,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,-0.125f,-0.125f],scale:[0.25f,0.25f,0.25f]},block_state:{Name:"minecraft:lantern"}}
+
 # exposure = weight × remaining transmission / maximum transmission
 scoreboard players operation #shelter_ray_exposure vin.comfort_tmp = #shelter_ray_weight vin.comfort_tmp
 scoreboard players operation #shelter_ray_exposure vin.comfort_tmp *= #shelter_ray_transmission vin.comfort_tmp
