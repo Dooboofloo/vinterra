@@ -4,3 +4,4 @@
 
 # Submodule active tick functions
 function vinterra:world/time/tick_active
+function vinterra:world/weather/tick_active

@@ -7,3 +7,5 @@
 function vinterra:world/load
 function vinterra:player/load
 function vinterra:survival/load
+
+function vinterra:debug/load
