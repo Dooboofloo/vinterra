@@ -9,7 +9,7 @@
 # Just add corner blocks to your bases if you're worried about it!
 
 # Debug
-kill @e[type=block_display,tag=vin.shelter_debug]
+# kill @e[type=block_display,tag=vin.shelter_debug]
 
 # Default to fully exposed
 scoreboard players set @s vin.shelter 0

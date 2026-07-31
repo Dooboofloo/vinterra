@@ -3,9 +3,7 @@
 
 function vinterra:survival/warmth/block/heat/clear_probes
 
-# TODO: Consider when we ACTUALLY want to exit this function.
-# If we enforced the global #found_limit within every shell (like we do in 3), there would be no reason to separate the shells in the first place
-# Do we want to go back to per-shell found limits?
+# NOTE: The number of landmarks found can exceed #found_limit in shells 1 and 2, but not in 3
 
 function vinterra:survival/warmth/block/heat/discover_generated/shell_1
 execute if score #found vin.warmth_tmp >= #found_limit vin.warmth_meta run return 1

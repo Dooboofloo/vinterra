@@ -1,9 +1,25 @@
 # vinterra:survival/comfort/cozy_blocks/accumulate_generated
-# Scan a 7x4x7 volume centered on the player for nearby comfort sources, then dispatch based on category
-# No LOS check or similar is performed
+# Scan a volume centered on the player for nearby comfort sources, then dispatch based on category
+# No LOS check or similar is performed.
+
+# Volume:
+# 276 positions
+# X/Z: -4 through +4
+# Y:   -1 through +2
+# |X| + |Z| ≤ 6
+
+# ..XXXXX..
+# .XXXXXXX.
+# XXXXXXXXX
+# XXXXXXXXX
+# XXXXXXXXX
+# XXXXXXXXX
+# XXXXXXXXX
+# .XXXXXXX.
+# ..XXXXX..
 
 # Debug
-kill @e[type=block_display,tag=vin.comfort_debug]
+# kill @e[type=block_display,tag=vin.comfort_debug]
 
 # NOTE: This suffers from the same origin instability as warmth when jumping
 
