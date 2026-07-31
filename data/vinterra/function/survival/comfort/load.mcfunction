@@ -35,6 +35,13 @@ scoreboard players set #decoration_max vin.comfort_meta 8
 scoreboard players set #banner_comfort vin.comfort_meta 2
 scoreboard players set #banner_max vin.comfort_meta 8
 
+## Equipment Defaults
+scoreboard players set #leather_head vin.comfort_meta 2
+scoreboard players set #leather_chest vin.comfort_meta 3
+scoreboard players set #leather_legs vin.comfort_meta 1
+scoreboard players set #leather_feet vin.comfort_meta 2
+
+
 ### ===== COVERAGE =====
 
 # Whether precipitation is vertically blocked above the player

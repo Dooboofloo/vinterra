@@ -5,6 +5,7 @@
         "#minecraft:wooden_shelves",
 
         "minecraft:lantern",
+        "#vinterra:copper/lanterns",
 
         "#minecraft:candles",
         "#minecraft:candle_cakes",
