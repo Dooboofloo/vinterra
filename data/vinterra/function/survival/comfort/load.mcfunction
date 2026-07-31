@@ -38,5 +38,9 @@ scoreboard players set #wetness_rain_gain vin.comfort_meta 2
 scoreboard players set #wetness_blizzard_gain vin.comfort_meta 1
 scoreboard players set #wetness_max vin.comfort_meta 1600
 
+# The additional amount by which ambient and block cold are increased when wet.
+# 1600 / 3200 = 0.5 -> 50% increased cold gained from ambience and blocks while at max wetness
+scoreboard players set #wetness_cold_scale vin.comfort_meta 3200
+
 scoreboard players set #wetness_dry_loss vin.comfort_meta 1
 scoreboard players set #drying_scale vin.comfort_meta 25

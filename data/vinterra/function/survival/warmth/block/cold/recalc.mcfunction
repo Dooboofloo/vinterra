@@ -13,3 +13,6 @@ function vinterra:survival/warmth/block/cold/scan_generated/shell_3
 # Convert partial points into final cold
 scoreboard players operation @s vin.block_cold_total = @s vin.block_cold_raw
 scoreboard players operation @s vin.block_cold_total /= #cold_scale vin.warmth_meta
+
+# Scale according to wetness
+function vinterra:survival/warmth/block/cold/apply_wetness

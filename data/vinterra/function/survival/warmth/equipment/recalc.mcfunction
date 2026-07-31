@@ -10,6 +10,8 @@ function vinterra:survival/warmth/equipment/read_slot_macro {slot:"chest"}
 function vinterra:survival/warmth/equipment/read_slot_macro {slot:"legs"}
 function vinterra:survival/warmth/equipment/read_slot_macro {slot:"feet"}
 
+# Unlike other types of cold, wetness does not increase the cold contribution of equipment.
+# Instead, it reduces its insulation value. A subtle but important distinction
 function vinterra:survival/warmth/equipment/apply_wetness
 
 scoreboard players operation @s vin.warmth_equipment = @s vin.equip_insulation
