@@ -5,6 +5,8 @@
 ## vinterra:survival/comfort
 # Reset total Comfort
 scoreboard players set @s vin.comfort 0
+scoreboard players set @s vin.comfort_blocks 0
+scoreboard players set @s vin.comfort_equipment 0
 
 # Reset wetness
 scoreboard players set @s vin.wetness 0

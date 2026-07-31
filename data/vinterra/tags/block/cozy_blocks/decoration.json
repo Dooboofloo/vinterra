@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:bookshelf",
+        "minecraft:chiseled_bookshelf",
+        "#minecraft:wooden_shelves",
+
+        "minecraft:lantern",
+
+        "#minecraft:candles",
+        "#minecraft:candle_cakes",
+
+        "#minecraft:flower_pots",
+        "minecraft:decorated_pot"
+    ]
+}

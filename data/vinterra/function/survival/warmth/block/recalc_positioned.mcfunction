@@ -2,10 +2,12 @@
 # Recalculates all block-based warmth components for the executing player
 # Executed by vinterra:survival/warmth/block/recalc after it determines the proper origin
 
+# Calculate Block Heat Contribution and scale it according to Comfort
 function vinterra:survival/warmth/block/heat/recalc
-function vinterra:survival/warmth/block/cold/recalc
+function vinterra:survival/warmth/block/heat/apply_comfort
 
-# TODO: Comfort modifies block_heat_total contribution here (planned 0-3: +0%, 4-7: +25%, 8-11: +50%, 12-15: +75%, 16: +100%)
+# Calculate Block Cold Contribution
+function vinterra:survival/warmth/block/cold/recalc
 
 scoreboard players operation @s vin.warmth_block = @s vin.block_heat_total
 scoreboard players operation @s vin.warmth_block -= @s vin.block_cold_total

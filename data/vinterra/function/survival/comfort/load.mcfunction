@@ -3,14 +3,37 @@
 
 ### ===== COMFORT =====
 
-# The player's total comfort score, from 0 to #comfort_max
+# Final Comfort
 scoreboard objectives add vin.comfort dummy
 
 scoreboard objectives add vin.comfort_meta dummy
 scoreboard objectives add vin.comfort_tmp dummy
 
+# Final Comfort is stored as whole points from 0 to 16
 scoreboard players set #comfort_max vin.comfort_meta 16
 
+# Raw Comfort sources are accumulated as quarter-points
+scoreboard players set #comfort_scale vin.comfort_meta 4
+
+# Comfort contribution categories
+scoreboard objectives add vin.comfort_blocks dummy
+scoreboard objectives add vin.comfort_equipment dummy
+
+## Block Comfort Category Contributions and Maximums (in quarter-points)
+scoreboard players set #campfire_comfort vin.comfort_meta 8
+scoreboard players set #campfire_max vin.comfort_meta 16
+
+scoreboard players set #bedding_comfort vin.comfort_meta 4
+scoreboard players set #bedding_max vin.comfort_meta 8
+
+scoreboard players set #softness_comfort vin.comfort_meta 1
+scoreboard players set #softness_max vin.comfort_meta 8
+
+scoreboard players set #decoration_comfort vin.comfort_meta 1
+scoreboard players set #decoration_max vin.comfort_meta 8
+
+scoreboard players set #banner_comfort vin.comfort_meta 2
+scoreboard players set #banner_max vin.comfort_meta 8
 
 ### ===== COVERAGE =====
 
