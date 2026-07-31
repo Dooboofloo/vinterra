@@ -5,4 +5,7 @@
 function vinterra:survival/comfort/coverage/recalc
 function vinterra:survival/comfort/shelter/recalc
 
+# TODO: Reduce total comfort by wetness (maximum 50% reduction)
+# Should it also be scaled by coverage/shelter?
+
 return 1

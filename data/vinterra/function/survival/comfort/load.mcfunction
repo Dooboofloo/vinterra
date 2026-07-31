@@ -1,9 +1,16 @@
 # vinterra:survival/comfort/load
 # Load entry point for the survival/comfort submodule
 
-### ===== GENERIC COMFORT =====
+### ===== COMFORT =====
+
+# The player's total comfort score, from 0 to #comfort_max
+scoreboard objectives add vin.comfort dummy
+
 scoreboard objectives add vin.comfort_meta dummy
 scoreboard objectives add vin.comfort_tmp dummy
+
+scoreboard players set #comfort_max vin.comfort_meta 16
+
 
 ### ===== COVERAGE =====
 
