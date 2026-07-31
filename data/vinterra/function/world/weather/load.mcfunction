@@ -1,7 +1,7 @@
 # vinterra:world/weather/load
 # Load entry point for the temporary global weather system
 
-# Disable natural time progression
+# Disable natural weather progression
 gamerule advance_weather false
 
 # Global weather state
@@ -13,7 +13,7 @@ scoreboard objectives add vin.weather dummy
 execute unless score #advance_weather vin.weather matches -2147483648..2147483647 run scoreboard players set #advance_weather vin.weather 1
 
 # Initialize persistent state only when missing or invalid
-execute unless score #state vin.weather matches -2147483648..2147483647 run scoreboard players set #state vin.weather 0
+execute unless score #state vin.weather matches 0..2 run scoreboard players set #state vin.weather 0
 execute unless score #timer vin.weather matches -2147483648..2147483647 run scoreboard players set #timer vin.weather 0
 execute unless score #duration vin.weather matches -2147483648..2147483647 run function vinterra:world/weather/roll_duration
 
