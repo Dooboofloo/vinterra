@@ -4,11 +4,11 @@
 # There are multiple block categories, and each category can
 # only contribute so much to the total comfort.
 # Categories:
-# - Campfire (2/block, max 4)
-# - Bedding (1/bed, max 2)
-# - Softness (carpets, wool) (0.25/block, max 2)
-# - Decoration (bookshelves, shelves, candles, lanterns, pots, etc.) (0.25/block, max 2)
-# - Banners (0.5/block, max 2)
+# - Campfire (2/block, max 4 (2 blocks))
+# - Bedding (1/bed, max 2 (2 beds))
+# - Softness (carpets, wool) (0.25/block, max 2 (8 blocks))
+# - Decoration (bookshelves, shelves, candles, lanterns, pots, etc.) (0.25/block, max 2 (8 blocks))
+# - Banners (0.5/block, max 2 (4 blocks))
 
 # NOTE: Soul Campfires and Soul Lanterns do NOT contribute coziness. Something about supernatural heat being hotter but feeling uneasy
 

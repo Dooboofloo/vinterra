@@ -10,6 +10,8 @@ gamerule advance_weather false
 # 2: Blizzard
 scoreboard objectives add vin.weather dummy
 
+execute unless score #advance_weather vin.weather matches -2147483648..2147483647 run scoreboard players set #advance_weather vin.weather 1
+
 # Initialize persistent state only when missing or invalid
 execute unless score #state vin.weather matches -2147483648..2147483647 run scoreboard players set #state vin.weather 0
 execute unless score #timer vin.weather matches -2147483648..2147483647 run scoreboard players set #timer vin.weather 0

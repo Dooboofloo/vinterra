@@ -3,7 +3,7 @@
 # Active tick functions (including this one) are only run if there is at least one player online
 
 # Increment the current time
-execute if score #advance_time vin.time_meta matches 0 run scoreboard players add #time vin.time 1
+execute unless score #advance_time vin.time_meta matches 0 run scoreboard players add #time vin.time 1
 
 # Compute the modulo'd time for use in cycle calculations
 scoreboard players operation #time_mod vin.time = #time vin.time

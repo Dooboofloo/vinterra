@@ -1,4 +1,4 @@
-# vinterra:world/time/debug/toggle_advance_time
+# vinterra:debug/gamerule/toggle_advance_time
 # Toggles the advancement of time
 
 # Toggle Off -> On
