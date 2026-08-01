@@ -19,7 +19,7 @@
 # ..XXXXX..
 
 # Debug
-# kill @e[type=block_display,tag=vin.comfort_debug]
+kill @e[type=block_display,tag=vin.comfort_debug]
 
 # NOTE: This suffers from the same origin instability as warmth when jumping
 
