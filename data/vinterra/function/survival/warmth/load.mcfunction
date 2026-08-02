@@ -144,9 +144,9 @@ scoreboard objectives add vin.warmth_band dummy
 scoreboard players set #band_frigid_min vin.warmth_meta -54
 scoreboard players set #band_cold_min vin.warmth_meta -27
 scoreboard players set #band_warm_min vin.warmth_meta 0
-scoreboard players set #band_hot_min vin.warmth_meta 27
-scoreboard players set #band_scorching_min vin.warmth_meta 54
-scoreboard players set #band_scalding_min vin.warmth_meta 80
+scoreboard players set #band_hot_min vin.warmth_meta 100
+scoreboard players set #band_scorching_min vin.warmth_meta 150
+scoreboard players set #band_scalding_min vin.warmth_meta 200
 
 # Recovery (cold -> warm) transition hysteresis
 scoreboard players set #band_recovery_threshold vin.warmth_meta 5
@@ -180,7 +180,7 @@ scoreboard objectives add vin.cold_exposure dummy
 scoreboard objectives add vin.cold_stage dummy
 
 # Exposure is updated independently of body-warmth interpolation
-scoreboard players set #exposure_interval vin.warmth_meta 20
+scoreboard players set #exposure_interval vin.warmth_meta 15
 scoreboard players set #exposure_clock vin.warmth_meta 0
 
 ## Band equilibrium values
