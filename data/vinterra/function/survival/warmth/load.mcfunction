@@ -36,6 +36,7 @@ scoreboard players set #2 vin.warmth_meta 2
 scoreboard players set #3 vin.warmth_meta 3
 scoreboard players set #4 vin.warmth_meta 4
 scoreboard players set #8 vin.warmth_meta 8
+scoreboard players set #64 vin.warmth_meta 64
 
 
 ### ===== AMBIENT CONTRIBUTION =====
@@ -179,7 +180,7 @@ scoreboard objectives add vin.cold_exposure dummy
 scoreboard objectives add vin.cold_stage dummy
 
 # Exposure is updated independently of body-warmth interpolation
-scoreboard players set #exposure_interval vin.warmth_meta 5
+scoreboard players set #exposure_interval vin.warmth_meta 20
 scoreboard players set #exposure_clock vin.warmth_meta 0
 
 ## Band equilibrium values

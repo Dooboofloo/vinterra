@@ -54,13 +54,13 @@ execute if block ~ ~ ~ #vinterra:copper/bulbs[lit=true] run return run scoreboar
 execute if block ~ ~ ~ minecraft:furnace[lit=true] run return run scoreboard players operation @s vin.heat_val = #heat_tier_2 vin.warmth_meta
 execute if block ~ ~ ~ minecraft:smoker[lit=true] run return run scoreboard players operation @s vin.heat_val = #heat_tier_2 vin.warmth_meta
 
-# Lit Brewing Stand (maybe T3?)
+# Lit Brewing Stand
 execute if block ~ ~ ~ minecraft:brewing_stand unless data block ~ ~ ~ {BrewTime:0s} run return run scoreboard players operation @s vin.heat_val = #heat_tier_2 vin.warmth_meta
 
-### TIER 3
-
 # Lit Campfire
-execute if block ~ ~ ~ minecraft:campfire[lit=true] run return run scoreboard players operation @s vin.heat_val = #heat_tier_3 vin.warmth_meta
+execute if block ~ ~ ~ minecraft:campfire[lit=true] run return run scoreboard players operation @s vin.heat_val = #heat_tier_2 vin.warmth_meta
+
+### TIER 3
 
 # Lit Blast Furnace
 execute if block ~ ~ ~ minecraft:blast_furnace[lit=true] run return run scoreboard players operation @s vin.heat_val = #heat_tier_3 vin.warmth_meta
