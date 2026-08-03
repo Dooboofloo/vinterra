@@ -32,6 +32,27 @@ scoreboard players set #48000 vin.time_meta 48000
 scoreboard players set #66000 vin.time_meta 66000
 scoreboard players set #72000 vin.time_meta 72000
 
+### ===== SLEEP =====
+
+# Prevent vanilla from independently skipping the night (which doesn't work anyway)
+gamerule minecraft:players_sleeping_percentage 101
+
+# Number of Vinterra ticks advanced per server tick while everyone sleeps
+# NOTE: Only astronomical time speeds up. All other systems remain on their own schedules
+scoreboard players set #sleep_speed vin.time_meta 120
+
+# Global sleep state and scratch values
+scoreboard players set #sleep_active vin.time_meta 0
+scoreboard players set #sleep_was_active vin.time_meta 0
+scoreboard players set #sleep_eligible vin.time_meta 0
+scoreboard players set #sleeping vin.time_meta 0
+scoreboard players set #sleep_remaining vin.time_meta 0
+scoreboard players set #time_step vin.time_meta 1
+
+# Earliest natural wake threshold: clear-weather sky time 23460
+# Dawn maps 66000..71999 onto 23000..23999, so this corresponds to Vinterra time 68760
+scoreboard players set #sleep_commit_time vin.time_meta 68760
+
+### ===== Apply =====
 # Update current world time
-function vinterra:world/time/update_phase
-function vinterra:world/time/apply_current
+function vinterra:world/time/synchronize

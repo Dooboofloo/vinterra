@@ -2,17 +2,16 @@
 # Active tick entry point the for world/time submodule
 # Active tick functions (including this one) are only run if there is at least one player online
 
-# Increment the current time
-execute unless score #advance_time vin.time_meta matches 0 run scoreboard players add #time vin.time 1
+# Determine whether all eligible Overworld players are sleeping
+function vinterra:world/time/sleep/update
 
-# Compute the modulo'd time for use in cycle calculations
-scoreboard players operation #time_mod vin.time = #time vin.time
-scoreboard players operation #time_mod vin.time %= #72000 vin.time_meta
+# Time is paused by default, advances normally when enabled, or rapidly while everyone sleeps
+scoreboard players set #time_step vin.time_meta 0
+execute unless score #advance_time vin.time_meta matches 0 run scoreboard players set #time_step vin.time_meta 1
+execute if score #sleep_active vin.time_meta matches 1 run function vinterra:world/time/sleep/set_step
 
-# Compute the current day for use in final sky calculation
-scoreboard players operation #day vin.time = #time vin.time
-scoreboard players operation #day vin.time /= #72000 vin.time_meta
+# Advance the authoritative Vinterra clock
+scoreboard players operation #time vin.time += #time_step vin.time_meta
 
-# Update current world time
-function vinterra:world/time/update_phase
-function vinterra:world/time/apply_current
+# Recompute time state and apply it
+function vinterra:world/time/synchronize
