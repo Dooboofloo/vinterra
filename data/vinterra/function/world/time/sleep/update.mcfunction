@@ -1,6 +1,8 @@
 # vinterra:world/time/sleep/update
 # Starts, maintains, commits, or ends the accelerated sleep session
 
+# TODO: Configurable players_sleeping_percentage-like gamerule
+
 scoreboard players operation #sleep_was_active vin.time_meta = #sleep_active vin.time_meta
 scoreboard players set #sleep_eligible vin.time_meta 0
 scoreboard players set #sleeping vin.time_meta 0

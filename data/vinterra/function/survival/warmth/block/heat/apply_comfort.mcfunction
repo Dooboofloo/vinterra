@@ -2,6 +2,9 @@
 # Amplifies positive block heat according to local Comfort
 # Must be executed as the player
 
+# Retain raw block heat for wetness calculation
+scoreboard players operation @s vin.block_heat_total = @s vin.block_heat_raw
+
 execute unless score @s vin.block_heat_total matches 1.. run return 0
 execute unless score @s vin.comfort matches 1.. run return 0
 

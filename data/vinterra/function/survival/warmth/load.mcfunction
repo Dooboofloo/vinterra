@@ -71,6 +71,7 @@ scoreboard players set #weather_blizzard vin.warmth_meta -15
 scoreboard objectives add vin.heat_val dummy
 
 # Final block heat contribution for each player
+scoreboard objectives add vin.block_heat_raw dummy
 scoreboard objectives add vin.block_heat_total dummy
 
 # Scoreboard tracking the number of found heat landmarks

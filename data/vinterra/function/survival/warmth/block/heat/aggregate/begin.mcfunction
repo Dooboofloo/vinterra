@@ -3,7 +3,7 @@
 # Must be executed as and at the player
 
 # Reset the player's landmark heat total
-scoreboard players set @s vin.block_heat_total 0
+scoreboard players set @s vin.block_heat_raw 0
 
 # Reset aggregation state
 scoreboard players set #agg_rank vin.warmth_tmp 1

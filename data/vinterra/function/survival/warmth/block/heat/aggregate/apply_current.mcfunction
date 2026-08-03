@@ -11,7 +11,7 @@ execute if score #agg_rank vin.warmth_tmp matches 3 run scoreboard players opera
 execute if score #agg_rank vin.warmth_tmp matches 4 run scoreboard players operation #agg_value vin.warmth_tmp /= #8 vin.warmth_meta
 
 # Add the adjusted value to the player
-scoreboard players operation @s vin.block_heat_total += #agg_value vin.warmth_tmp
+scoreboard players operation @s vin.block_heat_raw += #agg_value vin.warmth_tmp
 
 # Consume the selected probe
 tag @e[type=marker,tag=vin.heat_probe_aggregate_current,sort=nearest,limit=1] add vin.heat_probe_aggregated
