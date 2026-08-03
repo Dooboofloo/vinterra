@@ -4,14 +4,14 @@
 
 # Find the greatest current wait time
 scoreboard players set #max_wait vin.schedule_meta -1
-scoreboard players operation #max_wait vin.schedule_meta > @a[predicate=!vinterra:player/currently_dead] vin.recalc_wait
+scoreboard players operation #max_wait vin.schedule_meta > @a[predicate=vinterra:player/participating] vin.recalc_wait
 
 # Clear temporary selection tags
 tag @a remove vin.recalc_candidate
 tag @a remove vin.recalc_selected
 
 # Mark every living player tied for the longest wait
-execute as @a[predicate=!vinterra:player/currently_dead] if score @s vin.recalc_wait = #max_wait vin.schedule_meta run tag @s add vin.recalc_candidate
+execute as @a[predicate=vinterra:player/participating] if score @s vin.recalc_wait = #max_wait vin.schedule_meta run tag @s add vin.recalc_candidate
 
 # Break a tie arbitrarily, but select exactly one player
 tag @a[tag=vin.recalc_candidate,sort=arbitrary,limit=1] add vin.recalc_selected

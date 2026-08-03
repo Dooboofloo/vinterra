@@ -6,7 +6,7 @@ tag @a remove vin.recalc_candidate
 tag @a remove vin.recalc_selected
 
 # Select exactly one urgent player
-tag @a[tag=vin.recalc_urgent,predicate=!vinterra:player/currently_dead,sort=arbitrary,limit=1] add vin.recalc_selected
+tag @a[tag=vin.recalc_urgent,predicate=vinterra:player/participating,sort=arbitrary,limit=1] add vin.recalc_selected
 
 # Debug output
 tellraw @a[tag=vin.debug_viewer] [{text:"[Scheduler] Running Urgent Recalc for: "}, {selector:"@a[tag=vin.recalc_selected]"}]

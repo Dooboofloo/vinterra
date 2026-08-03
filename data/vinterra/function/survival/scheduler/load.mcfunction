@@ -7,7 +7,7 @@ scoreboard objectives add vin.recalc_wait dummy
 scoreboard objectives add vin.schedule_meta dummy
 
 scoreboard players set #budget vin.schedule_meta 0
-scoreboard players set #online vin.schedule_meta 0
+scoreboard players set #participants vin.schedule_meta 0
 scoreboard players set #max_wait vin.schedule_meta 0
 
 # One complete update per player every ten ticks

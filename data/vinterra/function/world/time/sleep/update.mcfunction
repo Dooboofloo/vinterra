@@ -8,7 +8,7 @@ scoreboard players set #sleep_eligible vin.time_meta 0
 scoreboard players set #sleeping vin.time_meta 0
 
 # Count initialized, living, non-spectator players in the Overworld
-execute as @a[tag=vin.player_initialized,gamemode=!spectator,predicate=!vinterra:player/currently_dead] at @s if dimension minecraft:overworld run function vinterra:world/time/sleep/check_player
+execute as @a[predicate=vinterra:player/participating] at @s if dimension minecraft:overworld run function vinterra:world/time/sleep/check_player
 
 # End a completed sleep session once the Vinterra clock reaches the new day
 execute if score #sleep_active vin.time_meta matches 1 if score #time_mod vin.time matches 0..11999 run scoreboard players set #sleep_active vin.time_meta 0

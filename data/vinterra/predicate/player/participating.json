@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_tags": {
+          "all_of": [
+            "vin.player_initialized"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:type_specific/player": {
+            "gamemode": [
+              "spectator"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:reference",
+        "name": "vinterra:player/currently_dead"
+      }
+    }
+  ]
+}
