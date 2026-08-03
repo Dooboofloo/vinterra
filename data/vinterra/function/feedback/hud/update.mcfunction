@@ -24,7 +24,7 @@ execute if score @s vin.wetness matches 1000.. run function vinterra:feedback/hu
 # Quantize the 0-350 exposure value into 0-10 filled segments
 scoreboard players operation @s vin.feedback_tmp = @s vin.cold_exposure
 scoreboard players operation @s vin.feedback_tmp *= #bar_steps vin.feedback_meta
-scoreboard players operation @s vin.feedback_tmp /= #exposure_stage_3_min vin.warmth_meta
+scoreboard players operation @s vin.feedback_tmp /= #exposure_target_freezing vin.warmth_meta
 execute if score @s vin.feedback_tmp matches ..-1 run scoreboard players set @s vin.feedback_tmp 0
 execute if score @s vin.feedback_tmp > #bar_steps vin.feedback_meta run scoreboard players operation @s vin.feedback_tmp = #bar_steps vin.feedback_meta
 
