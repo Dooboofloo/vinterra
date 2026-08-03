@@ -2,8 +2,11 @@
 # Manages player cold damage timers
 # Must be executed as the player
 
-# Leaving maximum exposure restarts the sustained-exposure timer
-execute unless score @s vin.cold_exposure >= #exposure_target_freezing vin.warmth_meta run return run scoreboard players set @s vin.cold_dmg_timer 0
+# Leaving freezing band completely resets cold damage timer
+execute unless score @s vin.cold_stage matches 3.. run return run scoreboard players set @s vin.cold_dmg_timer 0
+
+# Leaving maximum exposure pauses the sustained-exposure timer
+execute unless score @s vin.cold_exposure >= #exposure_target_freezing vin.warmth_meta run return run return 0
 
 # Increment the timer
 scoreboard players add @s vin.cold_dmg_timer 1
