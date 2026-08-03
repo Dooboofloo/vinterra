@@ -2,7 +2,7 @@
 # Manages player cold damage timers
 # Must be executed as the player
 
-# Leaving freezing band completely resets cold damage timer
+# Leaving critical exposure stage completely resets cold damage timer
 execute unless score @s vin.cold_stage matches 3.. run return run scoreboard players set @s vin.cold_dmg_timer 0
 
 # Leaving maximum exposure pauses the sustained-exposure timer

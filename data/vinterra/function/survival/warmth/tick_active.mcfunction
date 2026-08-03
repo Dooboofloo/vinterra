@@ -23,4 +23,4 @@ scoreboard players add #exposure_clock vin.warmth_meta 1
 execute if score #exposure_clock vin.warmth_meta >= #exposure_interval vin.warmth_meta run function vinterra:survival/warmth/cold_exposure/update_all
 
 ## Check players for freezing damage
-execute as @a run function vinterra:survival/warmth/cold_exposure/damage/tick
+execute as @a[tag=vin.player_initialized,predicate=!vinterra:player/currently_dead] run function vinterra:survival/warmth/cold_exposure/damage/tick

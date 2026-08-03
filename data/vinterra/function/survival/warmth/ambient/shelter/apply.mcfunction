@@ -1,9 +1,6 @@
 # vinterra:survival/warmth/ambient/shelter/apply
 # Scales environmental ambient warmth according to player-local shelter
 # Must be executed as the player
-#
-# No shelter retains 100% of outside ambient conditions.
-# Max shelter retains 0% of outside ambient conditions.
 
 # Shelter effectiveness is gated from 25% to 100% through Comfort
 
