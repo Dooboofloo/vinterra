@@ -3,11 +3,13 @@
 # Active tick functions (including this one) are only run if there is at least one player online
 
 # Module load order:
-# World -> Player -> Survival
+# World -> Player -> Survival -> Feedback -> Debug
 
 # Module active tick functions
 function vinterra:world/tick_active
 function vinterra:player/tick_active
 function vinterra:survival/tick_active
+function vinterra:feedback/tick_active
 
+# Debug runs last so its diagnostic actionbar intentionally replaces the ordinary HUD
 function vinterra:debug/tick_active
