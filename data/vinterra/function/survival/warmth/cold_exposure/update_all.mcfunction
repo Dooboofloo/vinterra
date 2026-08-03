@@ -3,4 +3,4 @@
 
 scoreboard players set #exposure_clock vin.warmth_meta 0
 
-execute as @a[tag=vin.player_initialized,predicate=vinterra:player/participating] run function vinterra:survival/warmth/cold_exposure/update
+execute as @a[predicate=vinterra:player/participating] run function vinterra:survival/warmth/cold_exposure/update

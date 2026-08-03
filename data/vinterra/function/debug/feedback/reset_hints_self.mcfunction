@@ -1,5 +1,5 @@
 # vinterra:debug/feedback/reset_hints_self
-# Resets one player's Survival onboarding so each hint and toast can be tested again
+# Resets one player's Survival onboarding so each hint can be tested again
 # Must be executed as the player
 
 advancement revoke @s only vinterra:feedback/hint_seen/cold

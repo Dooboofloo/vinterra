@@ -8,6 +8,6 @@ function vinterra:world/weather/apply_current
 function vinterra:world/weather/announce_current
 
 # Weather changes affect every initialized living player's warmth target
-execute as @a[tag=vin.player_initialized,predicate=vinterra:player/participating] run function vinterra:player/request_recalc
+execute as @a[predicate=vinterra:player/participating] run function vinterra:player/request_recalc
 
 return 1

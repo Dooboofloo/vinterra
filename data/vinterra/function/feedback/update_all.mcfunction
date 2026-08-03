@@ -1,5 +1,5 @@
 # vinterra:feedback/update_all
-# Dispatches player-facing Feedback updates for all initialized living players
+# Dispatches player-facing Feedback updates for all participating players
 
 scoreboard players set #feedback_clock vin.feedback_meta 0
 
