@@ -18,9 +18,15 @@ scoreboard players set @s vin.shelter 0
 tag @s remove vin.player_covered
 
 ## vinterra:survival/warmth
-# Initialize warmth
+# Initialize warmth and other related values
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
 scoreboard players operation @s vin.warmth_effective = #warmth_default vin.player_meta
+
+scoreboard players set @s vin.block_heat_raw 0
+scoreboard players set @s vin.block_heat_total 0
+
+scoreboard players set @s vin.block_cold_raw 0
+scoreboard players set @s vin.block_cold_total 0
 
 # Initialize warmth band
 scoreboard players reset @s vin.warmth_band
