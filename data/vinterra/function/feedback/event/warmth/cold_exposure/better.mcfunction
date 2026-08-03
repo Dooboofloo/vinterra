@@ -1,4 +1,4 @@
-# vinterra:feedback/warmth/cold_exposure/better
+# vinterra:feedback/event/warmth/cold_exposure/better
 # Provides feedback for cold exposure stage changing (getting better)
 # Must be executed as a player
 # vin.warmth_tmp contains the new stage

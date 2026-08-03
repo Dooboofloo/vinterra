@@ -4,8 +4,8 @@
 # Must be executed as the player
 
 # Produce feedback while both old and new values are available
-execute if score @s vin.cold_stage < @s vin.warmth_tmp run function vinterra:feedback/warmth/cold_exposure/worse
-execute if score @s vin.cold_stage > @s vin.warmth_tmp run function vinterra:feedback/warmth/cold_exposure/better
+execute if score @s vin.cold_stage < @s vin.warmth_tmp run function vinterra:feedback/event/warmth/cold_exposure/worse
+execute if score @s vin.cold_stage > @s vin.warmth_tmp run function vinterra:feedback/event/warmth/cold_exposure/better
 
 # Commit the new stage
 scoreboard players operation @s vin.cold_stage = @s vin.warmth_tmp

@@ -1,4 +1,4 @@
-# vinterra:feedback/warmth/cold_exposure/worse
+# vinterra:feedback/event/warmth/cold_exposure/worse
 # Provides feedback for cold exposure stage changing (getting worse)
 # Must be executed as a player
 # vin.warmth_tmp contains the new stage

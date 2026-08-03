@@ -1,6 +1,8 @@
 # vinterra:feedback/load
 # Load entry point for the feedback module
 
+# TODO: Posteffects (26.3), transition sounds, etc.
+
 scoreboard objectives add vin.feedback_meta dummy
 scoreboard objectives add vin.feedback_tmp dummy
 

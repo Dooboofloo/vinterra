@@ -1,4 +1,4 @@
-# vinterra:feedback/warmth/band/colder
+# vinterra:feedback/event/warmth/band/colder
 # Provides feedback for warmth band changing (colder)
 # Must be executed as a player
 # vin.warmth_tmp contains the new band
