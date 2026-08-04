@@ -22,6 +22,9 @@ tag @s remove vin.player_covered
 scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
 scoreboard players operation @s vin.warmth_effective = #warmth_default vin.player_meta
 
+# Set player grace period timer
+scoreboard players operation @s vin.player_grace_counter = #warmth_grace_period vin.player_meta
+
 scoreboard players set @s vin.block_heat_raw 0
 scoreboard players set @s vin.block_heat_total 0
 

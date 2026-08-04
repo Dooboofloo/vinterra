@@ -11,3 +11,7 @@ scoreboard players operation @s vin.warmth_target += @s vin.warmth_block
 
 # Add worn equipment
 scoreboard players operation @s vin.warmth_target += @s vin.warmth_equipment
+
+
+# Clamp target to default warmth value during respawn grace period
+execute if score @s vin.player_grace_counter matches 1.. if score @s vin.warmth_target < #warmth_default vin.player_meta run scoreboard players operation @s vin.warmth_target = #warmth_default vin.player_meta
