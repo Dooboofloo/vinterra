@@ -9,7 +9,7 @@
           "type": "minecraft:multi_noise",
           "biomes": [
             {
-              "biome": "minecraft:old_growth_spruce_taiga",
+              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -36,7 +36,7 @@
               }
             },
             {
-              "biome": "minecraft:old_growth_pine_taiga",
+              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -63,7 +63,7 @@
               }
             },
             {
-              "biome": "minecraft:taiga",
+              "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -90,7 +90,7 @@
               }
             },
             {
-              "biome": "minecraft:windswept_gravelly_hills",
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -117,7 +117,7 @@
               }
             },
             {
-              "biome": "minecraft:windswept_forest",
+              "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -144,7 +144,7 @@
               }
             },
             {
-              "biome": "minecraft:windswept_hills",
+              "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -171,7 +171,7 @@
               }
             },
             {
-              "biome": "minecraft:cold_ocean",
+              "biome": "vinterra:modified_vanilla/cold_ocean",
               "parameters": {
                 "continentalness": [
                   -0.455,
@@ -198,7 +198,7 @@
               }
             },
             {
-              "biome": "minecraft:deep_cold_ocean",
+              "biome": "vinterra:modified_vanilla/deep_cold_ocean",
               "parameters": {
                 "continentalness": [
                   -1.05,
@@ -495,7 +495,7 @@
               }
             },
             {
-              "biome": "minecraft:deep_frozen_ocean",
+              "biome": "vinterra:modified_vanilla/deep_frozen_ocean",
               "parameters": {
                 "continentalness": [
                   -1.05,
