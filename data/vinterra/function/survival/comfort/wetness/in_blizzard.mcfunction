@@ -1,5 +1,5 @@
 # vinterra:survival/comfort/wetness/in_blizzard
-# Slowly add wetness from getting rained on
+# Slowly add wetness from direct blizzard exposure
 
 # There is no rain in a Vinterra world. Each biome either has snowfall or no precipitation.
 
