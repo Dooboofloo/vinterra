@@ -9,33 +9,6 @@
           "type": "minecraft:multi_noise",
           "biomes": [
             {
-              "biome": "minecraft:stony_shore",
-              "parameters": {
-                "continentalness": [
-                  -0.19,
-                  -0.11
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.2225
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.2666,
-                  -0.05
-                ]
-              }
-            },
-            {
               "biome": "minecraft:old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
