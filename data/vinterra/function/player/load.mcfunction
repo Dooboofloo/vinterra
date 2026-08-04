@@ -12,5 +12,5 @@ scoreboard objectives add vin.player_grace_counter dummy
 scoreboard players set #warmth_grace_period vin.player_meta 300
 
 # A player's inherent body temperature upon initialization or respawning
-# Can not drop below this during grace period
+# Cannot drop below this during grace period
 scoreboard players set #warmth_default vin.player_meta 20
