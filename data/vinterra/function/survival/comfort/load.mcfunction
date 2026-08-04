@@ -69,9 +69,10 @@ scoreboard players set #shelter_transmission_max vin.comfort_meta 16
 # A player's total wetness ([0, #wetness_max])
 scoreboard objectives add vin.wetness dummy
 
-# Wetness Constants
+## Wetness Constants
+# Submerging in water quickly soaks the player
 scoreboard players set #wetness_water_gain vin.comfort_meta 50
-scoreboard players set #wetness_rain_gain vin.comfort_meta 2
+# Direct blizzard exposure slowly wets clothing
 scoreboard players set #wetness_blizzard_gain vin.comfort_meta 1
 scoreboard players set #wetness_max vin.comfort_meta 1600
 
