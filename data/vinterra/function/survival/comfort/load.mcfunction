@@ -53,16 +53,14 @@ scoreboard players set #leather_feet vin.comfort_meta 2
 # Range: 0 (fully exposed) to #shelter_max (fully sheltered)
 scoreboard objectives add vin.shelter dummy
 
-# Active raycast shelter scale (sum of all possible weighted rays)
+# Sum of all possible shelter-ray weights
 scoreboard players set #shelter_max vin.comfort_meta 1024
 
 # Raycast distance: 16 half-block steps = 8 blocks
 scoreboard players set #shelter_ray_step_limit vin.comfort_meta 16
 
-# Ray transmission scale
-# Currently binary: 16 for fully transmissive or 0 for blocked
-# Future block state detectors may apply intermediate values
-scoreboard players set #shelter_transmission_max vin.comfort_meta 16
+# Shelter accumulated by one ray is measured from 0 to 16
+scoreboard players set #shelter_ray_blocking_max vin.comfort_meta 16
 
 ### ===== WETNESS =====
 

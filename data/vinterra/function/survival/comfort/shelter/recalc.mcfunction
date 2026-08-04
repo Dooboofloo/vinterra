@@ -11,14 +11,14 @@
 # Debug
 kill @e[type=block_display,tag=vin.shelter_debug]
 
-# Default to fully exposed
+# Clean up any remnants from an interrupted calculation
+kill @e[type=marker,tag=vin.shelter_cell]
+
+# Begin fully exposed; each ray adds its sheltered contribution
 scoreboard players set @s vin.shelter 0
 
 # Direct precipitation exposure guarantees that the player is not sheltered
 execute unless entity @s[tag=vin.player_covered] run return 0
-
-# Begin fully sheltered; each ray that reaches the exterior removes exposure weight
-scoreboard players operation @s vin.shelter = #shelter_max vin.comfort_meta
 
 function vinterra:survival/comfort/shelter/raycast/cast_all
 

@@ -17,10 +17,6 @@
     "#minecraft:cave_vines",
     "#minecraft:rails",
 
-    "#minecraft:fences",
-    "#minecraft:fence_gates",
-    "#minecraft:walls",
-
     "minecraft:end_rod",
     "minecraft:light",
     "minecraft:structure_void",
@@ -81,8 +77,6 @@
     "minecraft:turtle_egg",
     "minecraft:sniffer_egg",
 
-    "minecraft:iron_bars",
-    "#vinterra:copper/bars",
     "minecraft:iron_chain",
     "#vinterra:copper/chains",
 
@@ -109,8 +103,6 @@
     "minecraft:campfire",
     "minecraft:soul_campfire",
     "minecraft:brewing_stand",
-    "#vinterra:copper/lanterns",
-
-    "#minecraft:slabs"
+    "#vinterra:copper/lanterns"
   ]
 }

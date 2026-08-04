@@ -2,23 +2,14 @@
 # Advances one half-block step along the current shelter ray
 # @s remains the player
 
-# First-pass block evaluation:
-# static passable blocks transmit the ray fully; all other blocks stop it
+# Evaluate this block only when the ray enters a new block cell
+execute align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @e[type=marker,tag=vin.shelter_cell,distance=..0.01,limit=1] run function vinterra:survival/comfort/shelter/raycast/enter_cell
 
-# Debug
-execute if entity @s[tag=vin.debug_visualizer] unless block ~ ~ ~ #vinterra:shelter_passable run summon block_display ~ ~ ~ {Glowing:1b,Tags:["vin.shelter_debug"],glow_color_override:65280,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.125f,-0.125f,-0.125f],scale:[0.25f,0.25f,0.25f]},block_state:{Name:"minecraft:lantern"}}
+# A fully obstructed ray cannot gain any more shelter
+execute if score #shelter_ray_blocking vin.comfort_tmp >= #shelter_ray_blocking_max vin.comfort_meta run return run function vinterra:survival/comfort/shelter/raycast/finalize
 
-# TODO: This ⬇⬇⬇
-# Future state-sensitive and partial-transmission checks belong immediately
-# before the generic fallback. Slabs already implemented. Doors/trapdoors change based on orientation??
-
-execute if block ~ ~ ~ #minecraft:slabs[type=double] run return 0
-
-execute unless block ~ ~ ~ #vinterra:shelter_passable run return 0
-
-# Reaching the distance limit through transmissive blocks means exterior exposure
+# Advance through the ray's eight-block range
 scoreboard players add #shelter_ray_steps vin.comfort_tmp 1
-execute if score #shelter_ray_steps vin.comfort_tmp >= #shelter_ray_step_limit vin.comfort_meta run return run function vinterra:survival/comfort/shelter/raycast/escape
+execute if score #shelter_ray_steps vin.comfort_tmp >= #shelter_ray_step_limit vin.comfort_meta run return run function vinterra:survival/comfort/shelter/raycast/finalize
 
-# Continue along the current direction
 return run execute positioned ^ ^ ^0.5 run function vinterra:survival/comfort/shelter/raycast/step
