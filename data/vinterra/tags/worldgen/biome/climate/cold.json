@@ -1,8 +1,8 @@
 {
     "values": [
-        "minecraft:taiga",
-        "minecraft:windswept_gravelly_hills",
-        "minecraft:windswept_forest",
-        "minecraft:windswept_hills"
+        "vinterra:modified_vanilla/taiga",
+        "vinterra:modified_vanilla/windswept_gravelly_hills",
+        "vinterra:modified_vanilla/windswept_forest",
+        "vinterra:modified_vanilla/windswept_hills"
     ]
 }
