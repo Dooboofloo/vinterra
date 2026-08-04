@@ -3,3 +3,4 @@
 
 function vinterra:world/time/load
 function vinterra:world/weather/load
+function vinterra:world/snow/load
