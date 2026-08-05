@@ -12,6 +12,7 @@ scoreboard players set #pulse_interval vin.snow 10
 scoreboard players set #pulse_clock vin.snow 0
 
 # Server-wide accumulation attempts performed during each pulse
+# TODO: Balance these
 scoreboard players set #snowfall_attempts vin.snow 2
 scoreboard players set #blizzard_attempts vin.snow 8
 

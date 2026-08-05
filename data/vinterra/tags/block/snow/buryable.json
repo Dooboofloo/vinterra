@@ -1,0 +1,39 @@
+{
+    "values": [
+        "#vinterra:snow/tall_buryable",
+
+        "#minecraft:saplings",
+        "minecraft:bamboo_sapling",
+
+        "#minecraft:small_flowers",
+        "minecraft:mangrove_propagule",
+        "minecraft:pink_petals",
+        "minecraft:wildflowers",
+        "minecraft:leaf_litter",
+        "minecraft:cactus_flower",
+
+        "minecraft:short_grass",
+        "minecraft:fern",
+        "minecraft:short_dry_grass",
+        "minecraft:bush",
+        "minecraft:dead_bush",
+        "minecraft:firefly_bush",
+
+        "minecraft:crimson_roots",
+        "minecraft:warped_roots",
+        "minecraft:nether_sprouts",
+        "minecraft:nether_wart",
+
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus",
+
+        "#minecraft:crops",
+
+        "minecraft:glow_lichen",
+        "minecraft:resin_clump",
+        "minecraft:moss_carpet",
+        "minecraft:pale_moss_carpet"
+    ]
+}

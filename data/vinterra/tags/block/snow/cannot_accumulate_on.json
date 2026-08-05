@@ -1,9 +1,23 @@
 {
   "values": [
+    "#vinterra:snow/interactable",
+    "#vinterra:snow/buryable",
+
     "#minecraft:cannot_support_snow_layer",
 
     "minecraft:water",
     "minecraft:bubble_column",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:lily_pad",
+    "#minecraft:corals",
+
+    "#minecraft:flower_pots",
+    "minecraft:flower_pot",
+    "minecraft:decorated_pot",
+
     "minecraft:lava",
     "minecraft:powder_snow",
 
@@ -12,7 +26,102 @@
     "#minecraft:walls",
     "minecraft:iron_bars",
     "#vinterra:copper/bars",
+    "minecraft:iron_chain",
+    "#vinterra:copper/chains",
+    "#vinterra:copper/lightning_rod",
 
-    "#minecraft:doors"
+    "minecraft:lantern",
+    "minecraft:soul_lantern",
+    "#vinterra:copper/lanterns",
+
+    "#vinterra:groups/glass_panes",
+
+    "#minecraft:wool_carpets",
+    "#minecraft:beds",
+    "#minecraft:banners",
+
+    "minecraft:end_rod",
+
+    "#minecraft:doors",
+
+    "#vinterra:copper/golems",
+
+    "minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:big_dripleaf",
+    "minecraft:big_dripleaf_stem",
+    "minecraft:small_dripleaf",
+    "minecraft:chorus_plant",
+
+    "minecraft:turtle_egg",
+    "minecraft:sniffer_egg",
+    "minecraft:sea_pickle",
+    "minecraft:vine",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+
+    "minecraft:cobweb",
+
+    "minecraft:small_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:large_amethyst_bud",
+    "minecraft:amethyst_cluster",
+
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_vein",
+
+    "#minecraft:speleothems",
+
+    "minecraft:stonecutter",
+    "minecraft:grindstone",
+    "#minecraft:anvil",
+    "minecraft:composter",
+    "minecraft:bell",
+    "minecraft:conduit",
+    "minecraft:ladder",
+    "minecraft:enchanting_table",
+    "minecraft:brewing_stand",
+    "#minecraft:wooden_shelves",
+    "minecraft:lectern",
+    "#minecraft:all_signs",
+    "minecraft:cauldron",
+    "minecraft:heavy_core",
+
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:ender_chest",
+    "#minecraft:copper_chests",
+
+    "#vinterra:groups/heads",
+
+    "minecraft:dragon_egg",
+    "minecraft:end_portal_frame",
+    "minecraft:end_portal",
+    "minecraft:nether_portal",
+    "minecraft:cake",
+
+
+    "minecraft:redstone_wire",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:tripwire_hook",
+    "minecraft:tripwire",
+    "minecraft:daylight_detector",
+    "minecraft:hopper",
+
+    "#minecraft:pressure_plates",
+    "#minecraft:rails",
+
+    "minecraft:campfire",
+    "minecraft:soul_campfire",
+    "#vinterra:groups/all_torches",
+    "#minecraft:candles",
+    "#minecraft:candle_cakes"
   ]
 }

@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#vinterra:groups/torches",
+        "#vinterra:groups/soul_torches",
+        "#vinterra:copper/torches",
+        "minecraft:redstone_torch",
+        "minecraft:redstone_wall_torch"
+    ]
+}

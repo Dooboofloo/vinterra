@@ -18,6 +18,7 @@
         "#vinterra:copper/bars",
         "#vinterra:copper/chains",
         "#vinterra:copper/lightning_rod",
+        "#vinterra:copper/golems",
 
         "minecraft:light_weighted_pressure_plate",
         "minecraft:heavy_weighted_pressure_plate",
