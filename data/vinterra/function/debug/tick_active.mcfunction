@@ -3,25 +3,20 @@
 
 ## Handle scheduled reports
 execute as @a[tag=vin.debug_profile_active] unless data storage vinterra:debug profile.active run tag @s remove vin.debug_profile_active
+
+# Increment timers
 scoreboard players add @a[tag=vin.debug_profile_active] vin.debug_profile_timer 1
 
-# Scheduled reports at:
-# 1 second
-execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=20}] run function vinterra:debug/profile/report
-# 5 seconds
-execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=100}] run function vinterra:debug/profile/report
-# 10 seconds
-execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=200}] run function vinterra:debug/profile/report
-# 15 seconds
-execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=300}] run function vinterra:debug/profile/report
-# # 30 seconds
-# execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=600}] run function vinterra:debug/profile/report
-# # 60 seconds
-# execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=1200}] run function vinterra:debug/profile/report
+# Report once every specified interval
+execute as @a[tag=vin.debug_profile_active] run scoreboard players operation @s vin.debug_profile_time_mod = @s vin.debug_profile_timer
+execute as @a[tag=vin.debug_profile_active] run scoreboard players operation @s vin.debug_profile_time_mod %= #interval vin.debug_profile_meta
+execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_time_mod=0}] run function vinterra:debug/profile/report
+
+# Capture the terminal state when duration is not an interval boundary
+execute as @a[tag=vin.debug_profile_active] if score @s vin.debug_profile_timer >= #duration vin.debug_profile_meta unless score @s vin.debug_profile_time_mod matches 0 run function vinterra:debug/profile/report
 
 # Finish reporting
-execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=300..}] run function vinterra:debug/profile/finish
-# execute as @a[tag=vin.debug_profile_active,scores={vin.debug_profile_timer=1200..}] run function vinterra:debug/profile/finish
+execute as @a[tag=vin.debug_profile_active] if score @s vin.debug_profile_timer >= #duration vin.debug_profile_meta run function vinterra:debug/profile/finish
 
 
 ### True debug output

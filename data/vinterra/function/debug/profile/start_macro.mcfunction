@@ -4,6 +4,8 @@
 # Arguments:
 # - test_id:<str> | An identifier for this test
 # - build:<str> | The build of Vinterra this test uses
+# - sample_interval:<int> | Ticks between samples
+# - duration:<int> | Total profile duration in ticks
 # - time:<int> | Vinterra time
 # - weather:<int> | Weather state (0 = Clear, 1 = Snowfall, 2 = Blizzard)
 # - effective_warmth:<int> | Starting Effective Warmth
@@ -70,11 +72,23 @@ scoreboard players set #exposure_clock vin.warmth_meta 0
 
 
 ## Begin profile timer and reports
+
+## Clamp interval and duration
+$scoreboard players set #interval vin.debug_profile_meta $(sample_interval)
+execute if score #interval vin.debug_profile_meta matches ..0 run scoreboard players set #interval vin.debug_profile_meta 1
+
+$scoreboard players set #duration vin.debug_profile_meta $(duration)
+execute if score #duration vin.debug_profile_meta matches ..0 run scoreboard players set #duration vin.debug_profile_meta 1
+
 scoreboard players set @s vin.debug_profile_timer 0
+scoreboard players set @s vin.debug_profile_time_mod 0
+
 tag @s add vin.debug_profile_active
 
 # Initialize report state
-$data modify storage vinterra:debug profile.active set value {test_id:"$(test_id)",build:"$(build)",setup:{time:$(time),weather:$(weather),effective_warmth:$(effective_warmth),wetness:$(wetness),cold_exposure:$(cold_exposure),comfort:$(comfort)},locks:{wetness:0b,warmth:0b,exposure:0b,comfort:0b},samples:[]}
+$data modify storage vinterra:debug profile.active set value {test_id:"$(test_id)",build:"$(build)",interval_ticks:0,duration_ticks:0,setup:{time:$(time),weather:$(weather),effective_warmth:$(effective_warmth),wetness:$(wetness),cold_exposure:$(cold_exposure),comfort:$(comfort)},locks:{wetness:0b,warmth:0b,exposure:0b,comfort:0b},samples:[]}
+execute store result storage vinterra:debug profile.active.interval_ticks int 1 run scoreboard players get #interval vin.debug_profile_meta
+execute store result storage vinterra:debug profile.active.duration_ticks int 1 run scoreboard players get #duration vin.debug_profile_meta
 data modify storage vinterra:debug profile.active.player_uuid set from entity @s UUID
 data modify storage vinterra:debug profile.active.position set from entity @s Pos
 data modify storage vinterra:debug profile.active.dimension set from entity @s Dimension
