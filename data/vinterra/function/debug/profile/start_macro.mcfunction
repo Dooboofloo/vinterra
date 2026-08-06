@@ -69,7 +69,7 @@ function vinterra:survival/warmth/band/initialize
 # Begin timed measurements consistently
 scoreboard players set #interpolate_clock vin.warmth_meta 0
 scoreboard players set #exposure_clock vin.warmth_meta 0
-
+scoreboard players set #budget vin.schedule_meta 0
 
 ## Begin profile timer and reports
 
@@ -96,6 +96,10 @@ execute if entity @s[tag=vin.test_lock_wetness] run data modify storage vinterra
 execute if entity @s[tag=vin.test_lock_warmth] run data modify storage vinterra:debug profile.active.locks.warmth set value 1b
 execute if entity @s[tag=vin.test_lock_exposure] run data modify storage vinterra:debug profile.active.locks.exposure set value 1b
 execute if entity @s[tag=vin.test_lock_comfort] run data modify storage vinterra:debug profile.active.locks.comfort set value 1b
+
+# Refresh active player count
+scoreboard players set #participants vin.schedule_meta 0
+execute as @a[predicate=vinterra:player/participating] run scoreboard players add #participants vin.schedule_meta 1
 
 # Report Immediately
 function vinterra:debug/profile/report

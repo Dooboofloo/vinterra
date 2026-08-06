@@ -5,7 +5,7 @@ scoreboard players set @s vin.debug_covered 0
 execute if entity @s[tag=vin.player_covered] run scoreboard players set @s vin.debug_covered 1
 
 # Initialize sample storage
-data modify storage vinterra:debug profile.sample set value {ticks:0,time:0,phase:0,weather:0,warmth:{effective:0,target:0,band:0,ambient:0,block:0,equipment:0},blocks:{heat_raw:0,heat_total:0,cold_raw:0,cold_total:0},equipment:{insulation:0,cold:0},comfort:{total:0,blocks_raw:0,equipment_raw:0},wetness:0,exposure:{value:0,stage:0},covered:0b,shelter:0,recalc_wait:0}
+data modify storage vinterra:debug profile.sample set value {ticks:0,time:0,phase:0,weather:0,warmth:{effective:0,target:0,band:0,ambient:0,block:0,equipment:0},blocks:{heat_raw:0,heat_total:0,cold_raw:0,cold_total:0},equipment:{insulation:0,cold:0},comfort:{total:0,blocks_raw:0,equipment_raw:0},wetness:0,exposure:{value:0,stage:0},covered:0b,shelter:0,active_players:0,recalc_wait:0}
 
 # Populate fields
 execute store result storage vinterra:debug profile.sample.ticks int 1 run scoreboard players get @s vin.debug_profile_timer
@@ -32,6 +32,7 @@ execute store result storage vinterra:debug profile.sample.exposure.value int 1 
 execute store result storage vinterra:debug profile.sample.exposure.stage int 1 run scoreboard players get @s vin.cold_stage
 execute if entity @s[tag=vin.player_covered] run data modify storage vinterra:debug profile.sample.covered set value 1b
 execute store result storage vinterra:debug profile.sample.shelter int 1 run scoreboard players get @s vin.shelter
+execute store result storage vinterra:debug profile.sample.active_players int 1 run scoreboard players get #participants vin.schedule_meta
 execute store result storage vinterra:debug profile.sample.recalc_wait int 1 run scoreboard players get @s vin.recalc_wait
 
 # Record sample
