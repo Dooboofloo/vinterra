@@ -1,6 +1,9 @@
 # vinterra:survival/comfort/wetness/update
 # Must be executed as and at the player
 
+# Debug lock
+execute if entity @s[tag=vin.test_lock_wetness] run return 0
+
 # If immersed in water, become wet quickly (regardless of dimension or biome)
 execute if predicate vinterra:player/in_water run return run function vinterra:survival/comfort/wetness/in_wet_block
 

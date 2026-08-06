@@ -2,6 +2,9 @@
 # Moves cold exposure toward the target represented by the current warmth band
 # Must be executed as the player
 
+# Debug lock
+execute if entity @s[tag=vin.test_lock_exposure] run return 0
+
 # Handle missing or corrupted exposure state
 execute unless score @s vin.cold_exposure matches -2147483648..2147483647 run scoreboard players set @s vin.cold_exposure 0
 

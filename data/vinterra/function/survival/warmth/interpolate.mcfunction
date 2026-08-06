@@ -2,6 +2,9 @@
 # Interpolates target player's effective warmth toward their target warmth
 # Must be executed as the player
 
+# Debug lock
+execute if entity @s[tag=vin.test_lock_warmth] run return 0
+
 # Delta = target - effective
 scoreboard players operation @s vin.warmth_tmp = @s vin.warmth_target
 scoreboard players operation @s vin.warmth_tmp -= @s vin.warmth_effective

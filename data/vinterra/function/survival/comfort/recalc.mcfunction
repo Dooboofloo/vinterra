@@ -7,6 +7,10 @@ function vinterra:survival/comfort/shelter/recalc
 
 function vinterra:survival/comfort/cozy_blocks/recalc
 function vinterra:survival/comfort/equipment/recalc
+
+# Preserve manually assigned final Comfort while retaining component measurements
+execute if entity @s[tag=vin.test_lock_comfort] run return 0
+
 function vinterra:survival/comfort/finalize
 
 return 1
