@@ -5,4 +5,9 @@
 # Convert spreadsheet IDs manually when invoking: ENV-001 -> env_001.
 # Must be executed as and at the recording player.
 
-$function vinterra:debug/profile/generated/$(test_id)
+scoreboard players set #profile_found vin.debug_profile_meta 0
+$execute store success score #profile_found vin.debug_profile_meta run function vinterra:debug/profile/generated/$(test_id)
+execute if score #profile_found vin.debug_profile_meta matches 1 run return 1
+
+$tellraw @s [{text:"Error:",color:"dark_red",bold:true},{text:"\n"},{text:"\"vinterra:debug/profile/generated/$(test_id)\" does not exist.",color:"red",bold:false}]
+return 0
