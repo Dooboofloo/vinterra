@@ -16,7 +16,7 @@ scoreboard players set #feedback_clock vin.feedback_meta 0
 # Hints replace the ordinary actionbar HUD for four seconds
 scoreboard players set #hint_duration vin.feedback_meta 80
 
-# Cold Exposure is displayed as a ten-segment bar
-scoreboard players set #bar_steps vin.feedback_meta 10
+# Cold Exposure is displayed as a nine-segment bar, with a tenth segment for dangerous freezing
+scoreboard players set #bar_steps vin.feedback_meta 9
 
 return 1
