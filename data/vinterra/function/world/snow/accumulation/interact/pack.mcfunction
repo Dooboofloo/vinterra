@@ -1,6 +1,6 @@
 # vinterra:world/snow/accumulation/interact/pack
 
-execute store result score #roll vin.snow run random roll 0..999
+execute store result score #roll vin.snow run random value 0..999
 
 # When ticked, an ice block has a 12.5% chance to promote into the next packed stage
 execute unless score #roll vin.snow matches 0..124 run return 0
