@@ -142,8 +142,8 @@ scoreboard players set #cold_armor_feet vin.warmth_meta 1
 scoreboard objectives add vin.warmth_band dummy
 
 # Inclusive lower bounds (TODO: Balance these values)
-scoreboard players set #band_frigid_min vin.warmth_meta -54
-scoreboard players set #band_cold_min vin.warmth_meta -27
+scoreboard players set #band_frigid_min vin.warmth_meta -70
+scoreboard players set #band_cold_min vin.warmth_meta -35
 scoreboard players set #band_warm_min vin.warmth_meta 0
 scoreboard players set #band_hot_min vin.warmth_meta 100
 scoreboard players set #band_scorching_min vin.warmth_meta 150

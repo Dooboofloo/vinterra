@@ -4,8 +4,9 @@
 
 scoreboard players set #spread_success vin.snow 0
 
-# Select a random column within 64 blocks of the anchor
-execute store success score #spread_success vin.snow run spreadplayers ~ ~ 0 64 false @s
+# Select a random column within 192 blocks of the anchor
+# 192 blocks gives a 12-chunk radius, which is also the default simulation distance
+execute store success score #spread_success vin.snow run spreadplayers ~ ~ 0 192 false @s
 execute unless score #spread_success vin.snow matches 1 run return 0
 
 # Center the sampled column and evaluate its world surface
