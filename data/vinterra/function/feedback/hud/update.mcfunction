@@ -35,7 +35,7 @@ function vinterra:feedback/hud/exposure/segments
 execute if score @s vin.cold_stage matches 1.. run data modify storage vinterra:feedback hud.exposure_color set value "gold"
 execute if score @s vin.cold_stage matches 2.. run data modify storage vinterra:feedback hud.exposure_color set value "red"
 execute if score @s vin.cold_stage matches 3.. run data modify storage vinterra:feedback hud.exposure_color set value "dark_red"
-execute if score @s vin.cold_exposure >= #exposure_target_freezing vin.warmth_meta run data modify storage vinterra:feedback hud.exposure_color set value "#380000"
+execute if score @s vin.cold_exposure >= #exposure_dmg_threshold vin.warmth_meta run data modify storage vinterra:feedback hud.exposure_color set value "#380000"
 
 # Render immediately; the shared storage compound is safe because function execution is sequential
 function vinterra:feedback/hud/render_macro with storage vinterra:feedback hud

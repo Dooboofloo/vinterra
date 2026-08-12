@@ -184,10 +184,13 @@ scoreboard objectives add vin.cold_stage dummy
 scoreboard players set #exposure_interval vin.warmth_meta 15
 scoreboard players set #exposure_clock vin.warmth_meta 0
 
-# Fully freezing players (cold_exposure >= #exposure_target_freezing) damage interval
-# TODO: Separate value for #cold_dmg_threshold? ~325?
+# Fully freezing players (cold_exposure >= #exposure_dmg_threshold) damage interval
 scoreboard objectives add vin.cold_dmg_timer dummy
 scoreboard players set #cold_dmg_interval vin.warmth_meta 200
+
+## Cold damage threshold
+# TODO: Check balance of this
+scoreboard players set #exposure_dmg_threshold vin.warmth_meta 325
 
 ## Band equilibrium values
 scoreboard players set #exposure_target_safe vin.warmth_meta 0

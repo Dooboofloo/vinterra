@@ -5,8 +5,8 @@
 # Leaving critical exposure stage completely resets cold damage timer
 execute unless score @s vin.cold_stage matches 3.. run return run scoreboard players set @s vin.cold_dmg_timer 0
 
-# Leaving maximum exposure pauses the sustained-exposure timer
-execute unless score @s vin.cold_exposure >= #exposure_target_freezing vin.warmth_meta run return run return 0
+# Leaving dangerous exposure pauses the sustained-exposure timer
+execute unless score @s vin.cold_exposure >= #exposure_dmg_threshold vin.warmth_meta run return run return 0
 
 # Increment the timer
 scoreboard players add @s vin.cold_dmg_timer 1

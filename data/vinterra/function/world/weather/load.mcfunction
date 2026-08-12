@@ -21,3 +21,5 @@ execute unless score #duration vin.weather matches -2147483648..2147483647 run f
 function vinterra:world/weather/apply_current
 
 return 1
+
+# TODO?: Hail random event weather with special mobs and other hard effects. Like blood moon
