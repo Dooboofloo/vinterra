@@ -225,7 +225,7 @@
               }
             },
             {
-              "biome": "minecraft:frozen_river",
+              "biome": "vinterra:modified_vanilla/frozen_ocean",
               "parameters": {
                 "continentalness": [
                   -0.19,
