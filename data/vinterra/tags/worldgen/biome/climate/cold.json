@@ -3,6 +3,8 @@
         "vinterra:modified_vanilla/taiga",
         "vinterra:modified_vanilla/windswept_gravelly_hills",
         "vinterra:modified_vanilla/windswept_forest",
-        "vinterra:modified_vanilla/windswept_hills"
+        "vinterra:modified_vanilla/windswept_hills",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_beach"
     ]
 }

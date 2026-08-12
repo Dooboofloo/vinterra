@@ -3,8 +3,6 @@
         "vinterra:modified_vanilla/cold_ocean",
         "vinterra:modified_vanilla/deep_cold_ocean",
         "minecraft:frozen_river",
-        "minecraft:snowy_taiga",
-        "minecraft:snowy_plains",
-        "minecraft:snowy_beach"
+        "minecraft:snowy_taiga"
     ]
 }
