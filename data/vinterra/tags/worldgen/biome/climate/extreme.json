@@ -6,6 +6,8 @@
         "minecraft:grove",
         "minecraft:ice_spikes",
         "minecraft:frozen_ocean",
-        "vinterra:modified_vanilla/deep_frozen_ocean"
+        "vinterra:modified_vanilla/deep_frozen_ocean",
+
+        "vinterra:glacial_rift"
     ]
 }

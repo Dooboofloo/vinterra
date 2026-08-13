@@ -1,7 +1,8 @@
 {
     "values": [
-        "minecraft:stony_shore",
         "vinterra:modified_vanilla/old_growth_spruce_taiga",
-        "vinterra:modified_vanilla/old_growth_pine_taiga"
+        "vinterra:modified_vanilla/old_growth_pine_taiga",
+
+        "vinterra:prismatic_springs"
     ]
 }

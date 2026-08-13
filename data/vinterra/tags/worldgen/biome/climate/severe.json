@@ -3,6 +3,11 @@
         "vinterra:modified_vanilla/cold_ocean",
         "vinterra:modified_vanilla/deep_cold_ocean",
         "minecraft:frozen_river",
-        "minecraft:snowy_taiga"
+        "minecraft:snowy_taiga",
+        "vinterra:modified_vanilla/stony_shore",
+
+        "vinterra:aurora_highlands",
+        "vinterra:permafrost_wastes",
+        "vinterra:rimewoods"
     ]
 }

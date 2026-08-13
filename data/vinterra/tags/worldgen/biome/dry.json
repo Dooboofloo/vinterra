@@ -1,7 +1,6 @@
 {
   "values": [
-    "minecraft:desert",
-    "minecraft:savanna",
-    "minecraft:savanna_plateau"
+    "vinterra:prismatic_springs",
+    "vinterra:permafrost_wastes"
   ]
 }
