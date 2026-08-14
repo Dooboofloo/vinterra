@@ -16,7 +16,7 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -28,7 +28,7 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -40,7 +40,7 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -52,31 +52,19 @@
                 "erosion": [-1.0, -0.78],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/cherry_grove",
+              "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [-0.11, 0.3],
                 "depth": 0.0,
                 "erosion": [-1.0, -0.78],
-                "humidity": [-0.1, 0.5],
+                "humidity": [-0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.3],
-                "depth": 0.0,
-                "erosion": [-1.0, -0.78],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -88,7 +76,7 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -100,8 +88,20 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-0.35, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/forest",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [-1.0, 0.45]
               }
             },
             {
@@ -112,8 +112,20 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 1.0]
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.45, 0.75]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/forest",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.75, 1.0]
               }
             },
             {
@@ -124,7 +136,7 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -136,7 +148,7 @@
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
@@ -145,7 +157,7 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, 0.55],
+                "erosion": [-0.375, 0.05],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-0.78, 1.0],
@@ -160,79 +172,79 @@
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.35, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.35, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
+              "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
+                "erosion": [-0.375, 0.05],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
+              "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
+                "erosion": [-0.375, 0.05],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [-0.11, 0.03],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -244,7 +256,7 @@
                 "erosion": [-0.375, -0.2225],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
@@ -256,151 +268,55 @@
                 "erosion": [-0.375, -0.2225],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.2225, 0.05],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.2225, 0.05],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-1.0, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-1.0, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
                 "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.05, 0.45],
+                "erosion": [-0.2225, 0.05],
                 "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -409,11 +325,23 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
+                "erosion": [0.05, 0.55],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [-0.11, 0.3],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [-1.0, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
               }
             },
             {
@@ -421,82 +349,130 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
+                "erosion": [0.05, 0.55],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.35, -0.1],
+                "erosion": [0.05, 0.55],
+                "humidity": [-0.35, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.35, -0.1],
+                "erosion": [0.05, 0.55],
+                "humidity": [-0.35, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.1, 0.5],
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.1, 0.5],
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
+                "erosion": [0.05, 0.45],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
+                "erosion": [0.05, 0.45],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [-0.11, 0.3],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [-1.0, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/old_growth_birch",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/old_growth_birch",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -508,56 +484,32 @@
                 "erosion": [0.55, 1.0],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [0.55, 1.0],
-                "humidity": [-0.35, -0.1],
+                "humidity": [-0.35, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
-                "continentalness": [-0.11, 0.03],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [0.55, 1.0],
-                "humidity": [-0.1, 0.5],
+                "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 0.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.0, 1.0]
               }
             },
             {
@@ -568,8 +520,20 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [-0.55, 1.0],
+                "temperature": [-0.48, 1.0],
                 "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/forest",
+              "parameters": {
+                "continentalness": [0.03, 0.3],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-0.1, 0.1],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [-1.0, 0.45]
               }
             },
             {
@@ -580,212 +544,8 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.2666]
-              }
-            },
-            {
-              "biome": "vinterra:prismatic_springs",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-0.2666, 0.2666]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.2666, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.35, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.35, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.2666]
-              }
-            },
-            {
-              "biome": "vinterra:prismatic_springs",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-0.2666, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:prismatic_springs",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 0.2666]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.2666, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.45, 0.75]
               }
             },
             {
@@ -793,71 +553,11 @@
               "parameters": {
                 "continentalness": [0.03, 0.3],
                 "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
+                "erosion": [-0.78, -0.375],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/birch_forest",
-              "parameters": {
-                "continentalness": [0.03, 0.3],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_birch",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_birch",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.75, 1.0]
               }
             },
             {
@@ -865,11 +565,11 @@
               "parameters": {
                 "continentalness": [0.03, 1.0],
                 "depth": 0.0,
-                "erosion": [0.05, 0.45],
-                "humidity": [0.5, 1.0],
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
+                "temperature": [0.55, 1.0],
+                "weirdness": [-1.0, 0.0]
               }
             },
             {
@@ -877,83 +577,71 @@
               "parameters": {
                 "continentalness": [0.03, 1.0],
                 "depth": 0.0,
-                "erosion": [0.05, 0.45],
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.0, 0.05]
+              }
+            },
+            {
+              "biome": "vinterra:prismatic_springs",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.05, 0.45]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.45, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:prismatic_springs",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.375, -0.2225],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.05, 0.45]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/forest",
+              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [0.03, 1.0],
                 "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.35, 0.1],
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [-0.35, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_birch",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_birch",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.45, 0.55],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [-0.35, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/old_growth_birch",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [-1.0, 1.0]
+                "temperature": [0.55, 1.0],
+                "weirdness": [0.45, 1.0]
               }
             },
             {
@@ -964,7 +652,7 @@
                 "erosion": [-1.0, -0.78],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -976,607 +664,559 @@
                 "erosion": [-0.78, -0.375],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [0.55, 1.0],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "minecraft:frozen_river",
               "parameters": {
                 "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.55],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.55],
+                "humidity": [-0.35, -0.1],
+                "offset": 0.0,
+                "temperature": [0.55, 1.0],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [-0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, 1.0],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-0.35, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_hills",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-0.1, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.35, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.35, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/cherry_grove",
+              "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/cherry_grove",
+              "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
+              "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
+                "humidity": [0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
+                "humidity": [-0.35, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
+                "humidity": [-0.35, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
                 "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.05],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 0.3],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [-1.0, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 0.3],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [-1.0, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.2666]
               }
             },
             {
-              "biome": "vinterra:prismatic_springs",
+              "biome": "vinterra:icy_fields",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 1.0],
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-0.2666, -0.05]
               }
             },
             {
-              "biome": "vinterra:prismatic_springs",
+              "biome": "vinterra:icy_fields",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 1.0],
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 0.2666]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 1.0],
+                "erosion": [0.05, 0.45],
+                "humidity": [0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.2666, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, -0.1],
+                "erosion": [0.05, 0.55],
+                "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/birch_forest",
+              "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, -0.1],
+                "erosion": [0.05, 0.55],
+                "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/forest",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 0.3],
                 "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
+                "erosion": [0.45, 0.55],
+                "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/forest",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
-                "continentalness": [0.3, 1.0],
+                "continentalness": [-0.11, 0.3],
                 "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
+                "erosion": [0.45, 0.55],
+                "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/forest",
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 1.0],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.2666]
+              }
+            },
+            {
+              "biome": "vinterra:icy_fields",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-0.2666, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:icy_fields",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 0.55],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 0.2666]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.45, 1.0],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.2666, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [-0.11, 0.3],
+                "depth": 0.0,
+                "erosion": [0.55, 1.0],
+                "humidity": [-1.0, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:icy_fields",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.55, 1.0],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-0.2666, 0.2666]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [0.55, 1.0],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_forest",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [-1.0, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/windswept_hills",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [-0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.55],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.55],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:forsaken_city",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 1.0],
+                "humidity": [-0.35, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.48, 0.55],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [0.3, 1.0],
                 "depth": 0.0,
                 "erosion": [0.05, 0.45],
-                "humidity": [-0.35, 0.1],
+                "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [0.65, 1.0],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
-              "biome": "vinterra:modified_vanilla/forest",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [0.3, 1.0],
                 "depth": 0.0,
                 "erosion": [0.05, 0.45],
-                "humidity": [-0.35, 0.1],
-                "offset": 0.0,
-                "temperature": [0.65, 1.0],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-1.0, -0.375],
                 "humidity": [-0.1, 0.1],
                 "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.3],
-                "depth": 0.0,
-                "erosion": [-1.0, -0.78],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [-0.11, 0.03],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:icy_fields",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:icy_fields",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.2225, 0.05],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [-0.11, 0.3],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-1.0, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [-0.11, 0.3],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-1.0, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:icy_fields",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:icy_fields",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [-0.11, 0.3],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [-1.0, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:icy_fields",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [-0.1, 0.5],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/taiga",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.78, -0.375],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_hills",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.1, 0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [0.03, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [0.5, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [-1.0, -0.78],
-                "humidity": [-1.0, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:modified_vanilla/windswept_forest",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [-1.0, -0.78],
-                "humidity": [0.1, 1.0],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_plains",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-1.0, -0.35],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [0.05, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:forsaken_city",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:forsaken_city",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [0.05, 0.55],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -1588,19 +1228,7 @@
                 "erosion": [0.55, 1.0],
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
-                "temperature": [-0.55, 0.65],
-                "weirdness": [-1.0, 1.0]
-              }
-            },
-            {
-              "biome": "vinterra:forsaken_city",
-              "parameters": {
-                "continentalness": [0.3, 1.0],
-                "depth": 0.0,
-                "erosion": [0.55, 1.0],
-                "humidity": [-0.35, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.55, 0.65],
+                "temperature": [-0.48, 0.55],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -1612,7 +1240,7 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-1.0, -0.55],
+                "temperature": [-1.0, -0.48],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -1624,7 +1252,7 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-1.0, -0.55],
+                "temperature": [-1.0, -0.48],
                 "weirdness": [-1.0, 1.0]
               }
             },
@@ -1636,8 +1264,20 @@
                 "erosion": [-1.0, 1.0],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-1.0, -0.55],
+                "temperature": [-1.0, -0.48],
                 "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:permafrost_wastes",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-1.0, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.83]
               }
             },
             {
@@ -1648,8 +1288,8 @@
                 "erosion": [-1.0, -0.375],
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
-                "weirdness": [-1.0, 1.0]
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-0.83, -0.5]
               }
             },
             {
@@ -1657,23 +1297,11 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, 0.55],
+                "erosion": [-1.0, -0.375],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
-                "weirdness": [-1.0, -0.05]
-              }
-            },
-            {
-              "biome": "vinterra:permafrost_wastes",
-              "parameters": {
-                "continentalness": [-0.11, 1.0],
-                "depth": 0.0,
-                "erosion": [-0.375, 0.55],
-                "humidity": [-1.0, -0.1],
-                "offset": 0.0,
-                "temperature": [-0.78, -0.55],
-                "weirdness": [0.05, 1.0]
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-0.5, 0.5]
               }
             },
             {
@@ -1681,23 +1309,95 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.1, 0.1],
+                "erosion": [-1.0, -0.375],
+                "humidity": [-1.0, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
-                "weirdness": [-1.0, -0.05]
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.5, 0.83]
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "vinterra:permafrost_wastes",
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, -0.2225],
-                "humidity": [-0.1, 0.1],
+                "erosion": [-1.0, -0.375],
+                "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
-                "weirdness": [0.05, 1.0]
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.83, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.83]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-0.5, 0.5]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-0.1, 0.5],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.83, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.83]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-0.5, 0.5]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.83, 1.0]
               }
             },
             {
@@ -1706,9 +1406,9 @@
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
+                "humidity": [-1.0, 0.1],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, -0.05]
               }
             },
@@ -1718,9 +1418,9 @@
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-0.375, -0.2225],
-                "humidity": [0.1, 0.5],
+                "humidity": [-1.0, 0.1],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -1729,10 +1429,10 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, 0.55],
-                "humidity": [0.5, 1.0],
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, -0.05]
               }
             },
@@ -1741,34 +1441,82 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-0.375, 0.55],
-                "humidity": [0.5, 1.0],
+                "erosion": [-0.375, -0.2225],
+                "humidity": [0.1, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:permafrost_wastes",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [-1.0, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:permafrost_wastes",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [-1.0, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
                 "weirdness": [0.05, 1.0]
               }
             },
             {
               "biome": "minecraft:snowy_taiga",
               "parameters": {
-                "continentalness": [-0.11, 1.0],
+                "continentalness": [-0.11, 0.03],
                 "depth": 0.0,
                 "erosion": [-0.2225, 0.55],
                 "humidity": [-0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, -0.05]
               }
             },
             {
               "biome": "minecraft:snowy_taiga",
               "parameters": {
-                "continentalness": [-0.11, 1.0],
+                "continentalness": [-0.11, 0.03],
                 "depth": 0.0,
                 "erosion": [-0.2225, 0.55],
                 "humidity": [-0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [-0.11, 0.03],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
                 "weirdness": [0.05, 1.0]
               }
             },
@@ -1780,32 +1528,128 @@
                 "erosion": [0.55, 1.0],
                 "humidity": [-1.0, -0.1],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
               "biome": "minecraft:snowy_taiga",
               "parameters": {
-                "continentalness": [-0.11, 1.0],
+                "continentalness": [-0.11, 0.03],
                 "depth": 0.0,
                 "erosion": [0.55, 1.0],
                 "humidity": [-0.1, 0.5],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, 1.0]
               }
             },
             {
               "biome": "vinterra:rimewoods",
               "parameters": {
-                "continentalness": [-0.11, 1.0],
+                "continentalness": [-0.11, 0.03],
                 "depth": 0.0,
                 "erosion": [0.55, 1.0],
                 "humidity": [0.5, 1.0],
                 "offset": 0.0,
-                "temperature": [-0.78, -0.55],
+                "temperature": [-0.78, -0.48],
                 "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [-0.1, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [-0.1, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, -0.05]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.2225, 0.55],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [0.05, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [0.55, 1.0],
+                "humidity": [-0.1, 0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "vinterra:rimewoods",
+              "parameters": {
+                "continentalness": [0.03, 1.0],
+                "depth": 0.0,
+                "erosion": [0.55, 1.0],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-1.0, 1.0]
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "continentalness": [0.3, 1.0],
+                "depth": 0.0,
+                "erosion": [0.05, 0.55],
+                "humidity": [-0.35, -0.1],
+                "offset": 0.0,
+                "temperature": [-0.78, -0.48],
+                "weirdness": [-0.05, 0.05]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-1.0, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [-1.0, -0.82]
               }
             },
             {
@@ -1814,10 +1658,46 @@
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-1.0, -0.78],
-                "humidity": [-1.0, -0.1],
+                "humidity": [-1.0, -0.35],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, 1.0]
+                "weirdness": [-0.82, -0.35]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [-0.35, 0.35]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [-1.0, -0.35],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [0.35, 0.82]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.375],
+                "humidity": [-1.0, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [0.82, 1.0]
               }
             },
             {
@@ -1826,22 +1706,22 @@
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-1.0, -0.78],
-                "humidity": [-0.1, 0.1],
+                "humidity": [-0.35, 0.5],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.4]
+                "weirdness": [-0.82, -0.52]
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:glacial_rift",
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-1.0, -0.78],
-                "humidity": [-0.1, 0.1],
+                "humidity": [-0.35, 0.5],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-0.4, 0.4]
+                "weirdness": [-0.52, 0.52]
               }
             },
             {
@@ -1850,10 +1730,10 @@
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
                 "erosion": [-1.0, -0.78],
-                "humidity": [-0.1, 0.1],
+                "humidity": [-0.35, 0.5],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.4, 1.0]
+                "weirdness": [0.52, 0.82]
               }
             },
             {
@@ -1861,11 +1741,35 @@
               "parameters": {
                 "continentalness": [-0.11, 1.0],
                 "depth": 0.0,
-                "erosion": [-1.0, -0.375],
-                "humidity": [0.1, 1.0],
+                "erosion": [-1.0, -0.78],
+                "humidity": [0.5, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, 1.0]
+                "weirdness": [-0.82, -0.35]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [-0.35, 0.35]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-1.0, -0.78],
+                "humidity": [0.5, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [0.35, 0.82]
               }
             },
             {
@@ -1877,7 +1781,55 @@
                 "humidity": [-1.0, 0.1],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, 1.0]
+                "weirdness": [-0.82, -0.35]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-1.0, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [-0.35, 0.35]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [-1.0, 0.1],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [0.35, 0.82]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [-0.82, -0.35]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [-0.11, 1.0],
+                "depth": 0.0,
+                "erosion": [-0.78, -0.375],
+                "humidity": [0.1, 1.0],
+                "offset": 0.0,
+                "temperature": [-1.0, -0.78],
+                "weirdness": [0.35, 0.82]
               }
             },
             {
@@ -1889,7 +1841,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -1901,7 +1853,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-0.05, 0.05]
+                "weirdness": [-0.03, 0.03]
               }
             },
             {
@@ -1913,7 +1865,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             },
             {
@@ -1925,7 +1877,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -1937,7 +1889,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             },
             {
@@ -1949,7 +1901,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -1961,7 +1913,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             },
             {
@@ -1985,7 +1937,7 @@
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -1997,7 +1949,7 @@
                 "humidity": [-1.0, -0.35],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             },
             {
@@ -2009,7 +1961,7 @@
                 "humidity": [-0.35, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -2021,7 +1973,7 @@
                 "humidity": [-0.35, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             },
             {
@@ -2033,7 +1985,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [-1.0, -0.05]
+                "weirdness": [-1.0, -0.03]
               }
             },
             {
@@ -2045,7 +1997,7 @@
                 "humidity": [-1.0, 1.0],
                 "offset": 0.0,
                 "temperature": [-1.0, -0.78],
-                "weirdness": [0.05, 1.0]
+                "weirdness": [0.03, 1.0]
               }
             }
           ]
