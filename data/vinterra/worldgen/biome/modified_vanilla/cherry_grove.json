@@ -82,9 +82,7 @@
       "minecraft:flower_cherry",
       "minecraft:trees_cherry"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},

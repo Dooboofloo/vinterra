@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "vinterra:terrain/smooth_ascent_bank_factor",
+  "argument2": "vinterra:terrain/smooth_ascent_bank_delta"
+}

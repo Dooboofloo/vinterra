@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vinterra:terrain/plateau_relief_amplitude",
+  "argument2": "vinterra:terrain/mountain_relief_bonus"
+}

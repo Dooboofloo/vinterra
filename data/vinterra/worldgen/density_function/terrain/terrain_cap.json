@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vinterra:terrain/cap_height",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 2.56,
+    "argument2": "vinterra:terrain/detail"
+  }
+}

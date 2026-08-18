@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "vinterra:terrain/relief",
+      "points": [
+        {
+          "location": -1.0,
+          "value": 130.0,
+          "derivative": 0.0
+        },
+        {
+          "location": -0.5,
+          "value": 132.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.0,
+          "value": 134.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.15,
+          "value": 136.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.35,
+          "value": 146.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.55,
+          "value": 165.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.7,
+          "value": 225.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.85,
+          "value": 270.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 1.0,
+          "value": 300.0,
+          "derivative": 0.0
+        }
+      ]
+    }
+  }
+}

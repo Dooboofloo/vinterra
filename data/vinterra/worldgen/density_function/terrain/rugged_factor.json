@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": -3.6666666666666665,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 6.666666666666667,
+        "argument2": "vinterra:terrain/relief"
+      }
+    },
+    "min": 0.0,
+    "max": 1.0
+  }
+}

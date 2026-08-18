@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vinterra:terrain/vertical",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 0.015625,
+    "argument2": "vinterra:terrain/preliminary_land"
+  }
+}

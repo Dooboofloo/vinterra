@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "vinterra:terrain/elevation",
+    "min_inclusive": -0.3,
+    "max_exclusive": 0.5,
+    "when_in_range": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "vinterra:terrain/elevation",
+          "points": [
+            {
+              "location": -0.3,
+              "value": 66.0,
+              "derivative": 80.0
+            },
+            {
+              "location": 0.0,
+              "value": 90.0,
+              "derivative": 0.0
+            },
+            {
+              "location": 0.5,
+              "value": 130.0,
+              "derivative": 80.0
+            }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1.0,
+        "argument2": "vinterra:terrain/base_height"
+      }
+    },
+    "when_out_of_range": 0.0
+  }
+}

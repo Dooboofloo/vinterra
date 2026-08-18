@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vinterra:terrain/preliminary_land_base",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -1.0,
+    "argument2": "vinterra:landform/aurora_highlands/mesa_carve"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vinterra:terrain/vanilla_preliminary_surface",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "vinterra:terrain/continental_blend_factor",
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": "vinterra:terrain/preliminary_land",
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1.0,
+        "argument2": "vinterra:terrain/vanilla_preliminary_surface"
+      }
+    }
+  }
+}

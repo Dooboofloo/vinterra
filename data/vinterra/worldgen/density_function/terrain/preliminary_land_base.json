@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "argument1": "vinterra:terrain/terrain_body",
+  "argument2": "vinterra:terrain/terrain_cap"
+}

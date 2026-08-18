@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": "vinterra:terrain/base_height",
+          "argument2": "vinterra:terrain/smooth_ascent_bank"
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "vinterra:terrain/relief_amplitude",
+          "argument2": "vinterra:terrain/phase_folded"
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "vinterra:terrain/detail_amplitude",
+        "argument2": "vinterra:terrain/detail"
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "vinterra:terrain/jagged_amplitude",
+      "argument2": "vinterra:terrain/jagged_folded"
+    }
+  },
+  "argument2": "vinterra:terrain/mountain_uplift"
+}

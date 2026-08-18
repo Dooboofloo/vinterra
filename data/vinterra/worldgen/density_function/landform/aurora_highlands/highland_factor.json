@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": "vinterra:landform/aurora_highlands/highland_elevation_factor",
+      "argument2": "vinterra:landform/aurora_highlands/highland_smooth_factor"
+    },
+    "argument2": "vinterra:landform/aurora_highlands/climate_factor"
+  },
+  "argument2": "vinterra:landform/aurora_highlands/humidity_factor"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "vinterra:terrain/relief",
+    "min_inclusive": -1000000.0,
+    "max_exclusive": 0.35,
+    "when_in_range": 0.0,
+    "when_out_of_range": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "vinterra:terrain/relief",
+        "points": [
+          {
+            "location": 0.35,
+            "value": 0.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.5,
+            "value": 18.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 0.7,
+            "value": 40.0,
+            "derivative": 0.0
+          },
+          {
+            "location": 1.0,
+            "value": 52.0,
+            "derivative": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

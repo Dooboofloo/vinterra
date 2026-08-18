@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:mul",
+  "argument1": 14.0,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "vinterra:terrain/elevation_high_factor",
+    "argument2": "vinterra:terrain/rugged_factor"
+  }
+}

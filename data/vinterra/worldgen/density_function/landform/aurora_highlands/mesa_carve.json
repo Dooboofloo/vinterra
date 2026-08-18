@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "argument1": "vinterra:landform/aurora_highlands/mesa_requested_carve",
+  "argument2": "vinterra:landform/aurora_highlands/mesa_allowed_drop"
+}
