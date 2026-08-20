@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": "vinterra:landform/aurora_highlands/biome_candidate_factor",
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "vinterra:landform/aurora_highlands/highland_factor",
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "vinterra:landform/aurora_highlands/biome_mesa_region_factor",
+        "argument2": "vinterra:landform/aurora_highlands/biome_mesa_top_shape_factor"
+      }
+    }
+  }
+}

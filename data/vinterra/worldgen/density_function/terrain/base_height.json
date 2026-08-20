@@ -2,14 +2,14 @@
   "type": "minecraft:cache_2d",
   "argument": {
     "type": "minecraft:range_choice",
-    "input": "vinterra:terrain/elevation",
+    "input": "vinterra:terrain/elevation_effective",
     "min_inclusive": -1000000.0,
     "max_exclusive": -0.3,
     "when_in_range": 66.0,
     "when_out_of_range": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "vinterra:terrain/elevation",
+        "coordinate": "vinterra:terrain/elevation_effective",
         "points": [
           {
             "location": -0.3,

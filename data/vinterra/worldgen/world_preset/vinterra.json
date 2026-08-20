@@ -13,7 +13,7 @@
               "parameters": {
                 "continentalness": [
                   -1.05,
-                  -0.455
+                  -0.7
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -40,7 +40,7 @@
               "parameters": {
                 "continentalness": [
                   -1.05,
-                  -0.455
+                  -0.7
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -66,7 +66,7 @@
               "biome": "vinterra:modified_vanilla/frozen_ocean",
               "parameters": {
                 "continentalness": [
-                  -0.455,
+                  -0.7,
                   -0.19
                 ],
                 "depth": 0.0,
@@ -93,7 +93,7 @@
               "biome": "vinterra:modified_vanilla/cold_ocean",
               "parameters": {
                 "continentalness": [
-                  -0.455,
+                  -0.7,
                   -0.19
                 ],
                 "depth": 0.0,
@@ -121,12 +121,12 @@
               "parameters": {
                 "continentalness": [
                   -0.19,
-                  0.0
+                  -0.11
                 ],
                 "depth": 0.0,
                 "erosion": [
-                  -1,
-                  1
+                  -1.0,
+                  -0.3
                 ],
                 "humidity": [
                   -1,
@@ -148,17 +148,17 @@
               "parameters": {
                 "continentalness": [
                   -0.19,
-                  0.0
+                  -0.11
                 ],
                 "depth": 0.0,
                 "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
                   -1,
                   1
                 ],
-                "humidity": [
-                  -1,
-                  1
-                ],
                 "offset": 0.0,
                 "temperature": [
                   -0.15,
@@ -171,29 +171,29 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.19,
+                  -0.11
                 ],
                 "depth": 0.0,
                 "erosion": [
-                  -1.0,
-                  -0.3
+                  -0.3,
+                  1.0
                 ],
                 "humidity": [
-                  -1.0,
-                  -0.35
+                  -1,
+                  1
                 ],
                 "offset": 0.0,
                 "temperature": [
-                  -1.0,
-                  -0.6
+                  -1,
+                  1
                 ],
                 "weirdness": [
-                  -1.0,
-                  -0.5
+                  -1,
+                  1
                 ]
               }
             },
@@ -201,7 +201,34 @@
               "biome": "minecraft:ice_spikes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:ice_spikes",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -228,7 +255,7 @@
               "biome": "minecraft:ice_spikes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -255,7 +282,7 @@
               "biome": "minecraft:ice_spikes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -282,7 +309,7 @@
               "biome": "minecraft:ice_spikes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -309,7 +336,7 @@
               "biome": "minecraft:ice_spikes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -333,11 +360,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -363,8 +390,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -390,8 +444,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -417,8 +498,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -444,8 +552,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -471,467 +606,8 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.35,
-                  0.55
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:jagged_peaks",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.35,
-                  0.55
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -1.0,
-                  -0.35
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -954,11 +630,38 @@
               }
             },
             {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  0.03,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -984,8 +687,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1011,8 +714,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1038,8 +741,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1065,8 +768,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1092,8 +795,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1119,6 +822,492 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:jagged_peaks",
+              "parameters": {
+                "continentalness": [
                   0.3,
                   1.0
                 ],
@@ -1146,7 +1335,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1173,7 +1362,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1200,7 +1389,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1227,7 +1416,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1254,7 +1443,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1281,7 +1470,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -1305,11 +1494,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1335,8 +1524,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1362,8 +1578,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1389,8 +1632,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1416,8 +1686,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1443,467 +1740,8 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:grove",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.35,
-                  0.55
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:jagged_peaks",
-              "parameters": {
-                "continentalness": [
-                  0.0,
-                  0.3
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  0.5,
-                  1.0
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.35,
-                  0.55
-                ]
-              }
-            },
-            {
-              "biome": "vinterra:glacial_rift",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -1.0,
-                  -0.3
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.55,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -1.0,
-                  -0.5
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  -0.5,
-                  0.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.0,
-                  0.15
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "depth": 0.0,
-                "erosion": [
-                  -0.3,
-                  0.5
-                ],
-                "humidity": [
-                  -0.35,
-                  -0.1
-                ],
-                "offset": 0.0,
-                "temperature": [
-                  -1.0,
-                  -0.6
-                ],
-                "weirdness": [
-                  0.15,
-                  0.35
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:snowy_slopes",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1.0
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1926,11 +1764,38 @@
               }
             },
             {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  0.03,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1956,8 +1821,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -1983,8 +1848,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2010,8 +1875,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2037,8 +1902,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2064,8 +1929,8 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.3,
-                  1.0
+                  -0.11,
+                  0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2091,6 +1956,492 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:glacial_rift",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -1.0,
+                  -0.3
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:jagged_peaks",
+              "parameters": {
+                "continentalness": [
                   0.3,
                   1.0
                 ],
@@ -2118,7 +2469,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2145,7 +2496,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2172,7 +2523,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2199,7 +2550,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2226,7 +2577,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2253,7 +2604,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2277,11 +2628,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2307,8 +2658,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2334,8 +2712,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2361,8 +2766,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2388,8 +2820,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -2415,7 +2874,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2442,7 +2955,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2469,7 +2982,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2496,7 +3009,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2523,7 +3036,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2550,7 +3063,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -2577,7 +3090,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3090,7 +3603,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3117,7 +3630,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3144,7 +3657,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3171,7 +3684,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3198,7 +3711,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3225,7 +3738,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3249,11 +3762,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -3279,8 +3792,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -3306,8 +3846,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -3333,8 +3900,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -3360,8 +3954,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -3387,7 +4008,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  0.35,
+                  1.0
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -1.0,
+                  -0.6
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3414,7 +4089,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3441,7 +4116,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3468,7 +4143,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3495,7 +4170,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3522,7 +4197,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -3549,7 +4224,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4062,7 +4737,7 @@
               "biome": "vinterra:permafrost_wastes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4089,7 +4764,7 @@
               "biome": "vinterra:permafrost_wastes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4116,7 +4791,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4143,7 +4818,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4170,7 +4845,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4197,7 +4872,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4221,11 +4896,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -4251,8 +4926,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -4278,7 +4980,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
                   0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4305,7 +5061,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4332,7 +5088,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4359,7 +5115,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4383,16 +5139,16 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -1.0,
@@ -4413,13 +5169,40 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -1.0,
@@ -4440,12 +5223,66 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -4467,7 +5304,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4494,7 +5331,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4521,7 +5358,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -4869,7 +5706,7 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -4878,7 +5715,7 @@
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -1.0,
@@ -4904,8 +5741,35 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
-                  0.5,
+                  0.85,
                   1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  0.85
                 ],
                 "humidity": [
                   -1.0,
@@ -4931,7 +5795,61 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -5034,7 +5952,7 @@
               "biome": "vinterra:permafrost_wastes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5061,7 +5979,7 @@
               "biome": "vinterra:permafrost_wastes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5088,7 +6006,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5115,7 +6033,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5142,7 +6060,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5169,7 +6087,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5193,11 +6111,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -5223,8 +6141,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -5250,7 +6195,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
                   0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5277,7 +6276,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5304,7 +6303,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5331,7 +6330,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5355,16 +6354,16 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.35,
@@ -5385,13 +6384,40 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.35,
@@ -5412,12 +6438,66 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -5439,7 +6519,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5466,7 +6546,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5493,7 +6573,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -5841,7 +6921,7 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5850,7 +6930,7 @@
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.35,
@@ -5876,8 +6956,35 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
-                  0.5,
+                  0.85,
                   1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  0.85
                 ],
                 "humidity": [
                   -0.35,
@@ -5903,7 +7010,61 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -6006,7 +7167,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6033,7 +7194,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6060,7 +7221,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6087,7 +7248,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6114,7 +7275,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6141,7 +7302,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6165,11 +7326,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -6195,8 +7356,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -6222,8 +7410,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -6249,8 +7464,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -6276,8 +7518,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -6303,7 +7572,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6327,16 +7650,16 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.1,
@@ -6357,13 +7680,40 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.1,
@@ -6384,12 +7734,66 @@
               "biome": "vinterra:aurora_highlands",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
                 "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -6411,7 +7815,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6438,7 +7842,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6465,7 +7869,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -6813,7 +8217,7 @@
               }
             },
             {
-              "biome": "vinterra:aurora_highlands",
+              "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6822,7 +8226,7 @@
                 "depth": 0.0,
                 "erosion": [
                   0.5,
-                  1.0
+                  0.85
                 ],
                 "humidity": [
                   -0.1,
@@ -6848,8 +8252,35 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
-                  0.5,
+                  0.85,
                   1.0
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.5,
+                  0.85
                 ],
                 "humidity": [
                   -0.1,
@@ -6875,7 +8306,61 @@
                 ],
                 "depth": 0.0,
                 "erosion": [
+                  0.85,
+                  1.0
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:grove",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
                   0.5,
+                  0.85
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.6,
+                  -0.15
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:aurora_highlands",
+              "parameters": {
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -6978,7 +8463,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7005,7 +8490,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7032,7 +8517,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7059,7 +8544,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7086,7 +8571,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7113,7 +8598,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7140,7 +8625,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7167,7 +8652,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7194,7 +8679,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7221,7 +8706,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7248,7 +8733,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7275,7 +8760,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7302,7 +8787,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7329,7 +8814,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7356,7 +8841,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7383,7 +8868,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7410,7 +8895,7 @@
               "biome": "vinterra:rimewoods",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7437,7 +8922,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7950,7 +9435,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -7977,7 +9462,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8004,7 +9489,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8031,7 +9516,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8058,7 +9543,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8085,7 +9570,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8109,11 +9594,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -8139,8 +9624,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -8166,7 +9678,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
                   0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8193,7 +9759,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8220,7 +9786,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8247,7 +9813,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8274,7 +9840,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8301,7 +9867,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8328,7 +9894,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8355,7 +9921,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8382,7 +9948,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8409,7 +9975,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8922,7 +10488,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8949,7 +10515,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -8976,7 +10542,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9003,7 +10569,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9030,7 +10596,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9057,7 +10623,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9081,11 +10647,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -9111,8 +10677,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -9138,7 +10731,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
                   0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9165,7 +10812,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9192,7 +10839,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9219,7 +10866,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9246,7 +10893,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9273,7 +10920,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9300,7 +10947,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9327,7 +10974,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9354,7 +11001,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9381,7 +11028,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9894,7 +11541,7 @@
               "biome": "vinterra:icy_fields",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9921,7 +11568,7 @@
               "biome": "vinterra:icy_fields",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9948,7 +11595,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -9975,7 +11622,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10002,7 +11649,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10029,7 +11676,7 @@
               "biome": "minecraft:snowy_plains",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10053,11 +11700,11 @@
               }
             },
             {
-              "biome": "minecraft:snowy_slopes",
+              "biome": "vinterra:modified_vanilla/stony_shore",
               "parameters": {
                 "continentalness": [
-                  0.0,
-                  0.3
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -10083,8 +11730,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.5
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -10110,8 +11784,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  -0.5,
+                  0.0
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -10137,8 +11838,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  0.0,
+                  0.15
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -10164,8 +11892,35 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
                   0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  0.15,
+                  0.35
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
                 ],
                 "depth": 0.0,
                 "erosion": [
@@ -10191,7 +11946,61 @@
               "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  0.03,
+                  0.3
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  0.35,
+                  0.55
+                ]
+              }
+            },
+            {
+              "biome": "vinterra:modified_vanilla/stony_shore",
+              "parameters": {
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "depth": 0.0,
+                "erosion": [
+                  -0.3,
+                  0.5
+                ],
+                "humidity": [
+                  -0.1,
+                  0.35
+                ],
+                "offset": 0.0,
+                "temperature": [
+                  -0.15,
+                  0.4
+                ],
+                "weirdness": [
+                  0.55,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:snowy_slopes",
+              "parameters": {
+                "continentalness": [
+                  0.03,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10218,7 +12027,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10245,7 +12054,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10272,7 +12081,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10299,7 +12108,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10326,7 +12135,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10353,7 +12162,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10866,7 +12675,7 @@
               "biome": "minecraft:snowy_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10893,7 +12702,7 @@
               "biome": "minecraft:snowy_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10920,7 +12729,7 @@
               "biome": "minecraft:snowy_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10947,7 +12756,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -10974,7 +12783,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11001,7 +12810,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11028,7 +12837,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11055,7 +12864,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11082,7 +12891,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11109,7 +12918,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11136,7 +12945,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11163,7 +12972,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11190,7 +12999,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11217,7 +13026,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11244,7 +13053,7 @@
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11271,7 +13080,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11298,7 +13107,7 @@
               "biome": "vinterra:modified_vanilla/windswept_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11325,7 +13134,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11838,7 +13647,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11865,7 +13674,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11892,7 +13701,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11919,7 +13728,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11946,7 +13755,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -11973,7 +13782,7 @@
               "biome": "vinterra:modified_vanilla/windswept_gravelly_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12000,7 +13809,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12027,7 +13836,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12054,7 +13863,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12081,7 +13890,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12108,7 +13917,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12135,7 +13944,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12162,7 +13971,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12189,7 +13998,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12216,7 +14025,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12243,7 +14052,7 @@
               "biome": "vinterra:prismatic_springs",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12270,7 +14079,7 @@
               "biome": "vinterra:prismatic_springs",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12297,7 +14106,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12810,7 +14619,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12837,7 +14646,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12864,7 +14673,7 @@
               "biome": "vinterra:modified_vanilla/taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12891,7 +14700,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12918,7 +14727,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12945,7 +14754,7 @@
               "biome": "vinterra:modified_vanilla/windswept_hills",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12972,7 +14781,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -12999,7 +14808,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13026,7 +14835,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13053,7 +14862,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13080,7 +14889,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13107,7 +14916,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13134,7 +14943,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13161,7 +14970,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13188,7 +14997,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_pine_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13215,7 +15024,7 @@
               "biome": "vinterra:prismatic_springs",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13242,7 +15051,7 @@
               "biome": "vinterra:prismatic_springs",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13269,7 +15078,7 @@
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13782,7 +15591,7 @@
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13809,7 +15618,7 @@
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13836,7 +15645,7 @@
               "biome": "vinterra:modified_vanilla/birch_forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13863,7 +15672,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13890,7 +15699,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13917,7 +15726,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13944,7 +15753,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13971,7 +15780,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -13998,7 +15807,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14025,7 +15834,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14052,7 +15861,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14079,7 +15888,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_birch",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14106,7 +15915,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14133,7 +15942,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14160,7 +15969,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14187,7 +15996,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14214,7 +16023,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14241,7 +16050,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14754,7 +16563,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14781,7 +16590,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14808,7 +16617,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14835,7 +16644,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14862,7 +16671,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14889,7 +16698,7 @@
               "biome": "vinterra:modified_vanilla/forest",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14916,7 +16725,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14943,7 +16752,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14970,7 +16779,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -14997,7 +16806,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15024,7 +16833,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15051,7 +16860,7 @@
               "biome": "vinterra:modified_vanilla/old_growth_spruce_taiga",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15078,7 +16887,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15105,7 +16914,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15132,7 +16941,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15159,7 +16968,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15186,7 +16995,7 @@
               "biome": "vinterra:modified_vanilla/cherry_grove",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,
@@ -15213,7 +17022,7 @@
               "biome": "minecraft:frozen_peaks",
               "parameters": {
                 "continentalness": [
-                  0.0,
+                  -0.11,
                   0.3
                 ],
                 "depth": 0.0,

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "vinterra:climate/temperature",
+    "min_inclusive": -0.6,
+    "max_exclusive": -0.149999,
+    "when_in_range": {
+      "type": "minecraft:range_choice",
+      "input": "vinterra:climate/humidity",
+      "min_inclusive": -1.000001,
+      "max_exclusive": 0.350001,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "vinterra:terrain/relief",
+        "min_inclusive": -1.000001,
+        "max_exclusive": 0.150001,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "vinterra:terrain/elevation_effective",
+          "min_inclusive": 0.5,
+          "max_exclusive": 1.000001,
+          "when_in_range": 1.0,
+          "when_out_of_range": 0.0
+        },
+        "when_out_of_range": 0.0
+      },
+      "when_out_of_range": 0.0
+    },
+    "when_out_of_range": 0.0
+  }
+}

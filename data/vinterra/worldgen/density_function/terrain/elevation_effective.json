@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:min",
+    "argument1": "vinterra:terrain/elevation_base",
+    "argument2": "vinterra:terrain/elevation_continental_ceiling"
+  }
+}

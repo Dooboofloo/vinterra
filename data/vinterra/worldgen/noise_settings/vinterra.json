@@ -26,7 +26,7 @@
     },
     "continents": "minecraft:overworld/continents",
     "depth": "minecraft:overworld/depth",
-    "erosion": "vinterra:terrain/elevation",
+    "erosion": "vinterra:terrain/biome_elevation",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {

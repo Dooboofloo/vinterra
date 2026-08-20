@@ -1,5 +1,13 @@
 {
-  "type": "minecraft:min",
-  "argument1": "vinterra:terrain/terrain_body",
-  "argument2": "vinterra:terrain/terrain_cap"
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": "vinterra:terrain/terrain_body",
+    "argument2": "vinterra:terrain/terrain_cap"
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": "vinterra:terrain/mountain_cap_release_factor",
+    "argument2": "vinterra:terrain/terrain_cap_excess"
+  }
 }

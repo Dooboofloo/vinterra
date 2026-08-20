@@ -3,20 +3,20 @@
   "argument": {
     "type": "minecraft:spline",
     "spline": {
-      "coordinate": "vinterra:terrain/elevation_effective",
+      "coordinate": "vinterra:landform/aurora_highlands/mesa_region_factor",
       "points": [
         {
-          "location": -1.0,
+          "location": 0.0,
           "value": 0.0,
           "derivative": 0.0
         },
         {
-          "location": 0.62,
+          "location": 0.15,
           "value": 0.0,
           "derivative": 0.0
         },
         {
-          "location": 0.72,
+          "location": 0.35,
           "value": 1.0,
           "derivative": 0.0
         },

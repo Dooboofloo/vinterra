@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": -0.25,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 1.25,
+      "argument2": "vinterra:terrain/continental_blend_factor"
+    }
+  }
+}

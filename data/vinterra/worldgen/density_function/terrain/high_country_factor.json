@@ -8,7 +8,7 @@
       "argument2": {
         "type": "minecraft:mul",
         "argument1": 6.666666666666667,
-        "argument2": "vinterra:terrain/elevation"
+        "argument2": "vinterra:terrain/elevation_effective"
       }
     },
     "min": 0.0,

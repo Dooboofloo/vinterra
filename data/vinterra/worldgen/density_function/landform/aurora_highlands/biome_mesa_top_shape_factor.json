@@ -3,26 +3,31 @@
   "argument": {
     "type": "minecraft:spline",
     "spline": {
-      "coordinate": "vinterra:terrain/elevation_effective",
+      "coordinate": "vinterra:landform/aurora_highlands/mesa_shape_carve",
       "points": [
         {
-          "location": -1.0,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": 0.62,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": 0.72,
+          "location": 0.0,
           "value": 1.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.05,
+          "value": 1.0,
+          "derivative": 0.0
+        },
+        {
+          "location": 0.12,
+          "value": 0.5,
+          "derivative": -5.0
+        },
+        {
+          "location": 0.2,
+          "value": 0.0,
           "derivative": 0.0
         },
         {
           "location": 1.0,
-          "value": 1.0,
+          "value": 0.0,
           "derivative": 0.0
         }
       ]
